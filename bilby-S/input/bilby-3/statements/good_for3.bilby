@@ -1,0 +1,11 @@
+main {
+	for(i in <1..5>) {
+		for(j in <1..10>) {
+			if(i*j < 10) {
+				print $s;
+			}
+			print i*j $s;
+		}
+		print $n;
+	}
+}

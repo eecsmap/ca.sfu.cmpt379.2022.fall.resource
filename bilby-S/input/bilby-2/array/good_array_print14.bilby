@@ -1,0 +1,4 @@
+main {
+	imm hogslop := [<#a..#e>, <#r..#z>, <##0..##9>];
+	print hogslop $n;
+}

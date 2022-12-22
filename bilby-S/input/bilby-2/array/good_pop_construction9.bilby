@@ -1,0 +1,33 @@
+main {
+	imm arrays := alloc[[int]](100);
+	mut indx := 0;
+	while (indx < 100) {
+		arrays[indx] := [1, 2, 3, 4, 5, 6, 99];
+		indx := indx + 1;
+	}
+	indx := 0;
+	while (indx < 100) {
+		arrays[indx][0] := 8;
+		arrays[indx][3] := -10;
+		arrays[indx][6] := 88;
+		indx := indx + 1;
+	}
+	indx := 0;
+	while (indx < 100) {
+		imm elem1 := (  8 == arrays[indx][0]);
+		imm elem2 := (  2 == arrays[indx][1]);
+		imm elem3 := (  3 == arrays[indx][2]);
+		imm elem4 := (-10 == arrays[indx][3]);
+		imm elem5 := (  5 == arrays[indx][4]);
+		imm elem6 := (  6 == arrays[indx][5]);
+		imm elem7 := ( 88 == arrays[indx][6]);
+		imm good := elem1 && elem2 && elem3 && elem4 && elem5 && elem6 && elem7;
+		if(indx == 10 * (indx / 10)) {
+			print indx $s good $n;
+		}
+		if(!good) {
+			print "bad!" $s indx $n; 
+		}
+		indx := indx + 1;
+	}
+}

@@ -1,0 +1,8 @@
+main {
+	if (true)  {
+		print "then" $n;
+	}
+	print "after" $n;
+}
+
+

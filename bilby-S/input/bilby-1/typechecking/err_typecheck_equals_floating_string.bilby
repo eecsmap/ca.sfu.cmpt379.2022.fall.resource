@@ -1,0 +1,4 @@
+main {
+    imm result := 2.1 == " \P5X";
+    print result $n;
+}

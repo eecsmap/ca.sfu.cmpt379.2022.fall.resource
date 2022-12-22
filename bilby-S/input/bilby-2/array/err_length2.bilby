@@ -1,0 +1,4 @@
+main {
+	imm gram := "hello, world!";
+	print length gram $n; 			% prints 13
+}

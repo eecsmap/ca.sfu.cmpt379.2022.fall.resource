@@ -1,0 +1,5 @@
+main {
+    mut result := 31;
+    result := "^8>K1p";
+    print result $n;
+}

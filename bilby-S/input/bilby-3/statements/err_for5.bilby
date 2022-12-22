@@ -1,0 +1,7 @@
+main {
+	imm r := <2.3..3.5>;
+	for ( i in r ) {
+		print i*i $s;
+	}
+	print $n;
+}

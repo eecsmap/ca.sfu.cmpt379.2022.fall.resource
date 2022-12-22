@@ -1,0 +1,4 @@
+main {
+    imm result := 12 < "l?cEId";
+    print result $n;
+}

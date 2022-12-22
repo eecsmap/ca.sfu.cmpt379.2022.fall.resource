@@ -1,0 +1,4 @@
+main {
+    imm result := #y - 1.3;
+    print result $n;
+}

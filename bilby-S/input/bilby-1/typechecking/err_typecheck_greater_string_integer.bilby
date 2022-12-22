@@ -1,0 +1,4 @@
+main {
+    imm result := "wXVa8;Y" > 52;
+    print result $n;
+}

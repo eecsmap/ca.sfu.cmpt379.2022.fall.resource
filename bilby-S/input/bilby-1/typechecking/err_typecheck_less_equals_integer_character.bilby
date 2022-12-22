@@ -1,0 +1,4 @@
+main {
+    imm result := 15 <= #Y;
+    print result $n;
+}

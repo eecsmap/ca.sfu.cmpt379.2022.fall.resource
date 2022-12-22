@@ -1,0 +1,3 @@
+main {
+	print <true..6.0> $s false $n;
+}

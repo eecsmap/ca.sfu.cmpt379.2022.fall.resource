@@ -1,0 +1,4 @@
+main {
+    imm result := #, == 27;
+    print result $n;
+}

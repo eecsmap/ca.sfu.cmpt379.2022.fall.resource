@@ -1,0 +1,5 @@
+main {
+	mut c := #x;
+	c := 3.24;
+	print c $s 3.24 $n;
+}

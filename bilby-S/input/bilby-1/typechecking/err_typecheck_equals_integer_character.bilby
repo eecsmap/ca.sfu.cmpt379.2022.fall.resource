@@ -1,0 +1,4 @@
+main {
+    imm result := 96 == #g;
+    print result $n;
+}

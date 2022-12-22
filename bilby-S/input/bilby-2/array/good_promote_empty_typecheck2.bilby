@@ -1,0 +1,4 @@
+main {
+	mut farm := alloc[int](#a);
+	print length farm $n;
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := 1.5 != "A-FN";
+    print result $n;
+}

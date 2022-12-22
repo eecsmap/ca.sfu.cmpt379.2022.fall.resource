@@ -1,0 +1,4 @@
+main {
+    imm result := 5.4 < "WH";
+    print result $n;
+}

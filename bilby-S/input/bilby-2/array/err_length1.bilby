@@ -1,0 +1,4 @@
+main {
+	imm gram := #a;
+	print length gram $n; 			% typecheck, error
+}

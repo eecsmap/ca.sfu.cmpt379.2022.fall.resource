@@ -1,0 +1,5 @@
+main {
+    mut result := "5-!\ii@";
+    result := 50;
+    print result $n;
+}

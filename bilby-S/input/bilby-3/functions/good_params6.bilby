@@ -1,0 +1,20 @@
+func void holler(string str) {
+	print str $n;
+	
+	mut n := 0;
+	
+	while (n < 2) {
+		print "Yoo hoo!!!!" $n;
+		n := n + 1;
+	}
+	return;
+}
+
+main {
+	call holler( "4123" );
+	
+	mut m := 0.34;
+	call holler( "dabc" );
+	
+	print "all done." $n;
+}

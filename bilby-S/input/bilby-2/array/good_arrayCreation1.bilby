@@ -1,0 +1,7 @@
+main {
+	imm AA := [#a, #b, #c, #d, #e];
+	imm BB := [10.2, 7.3, 6.4];
+	
+	print AA $n;
+	print BB $n;
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := "`$" >= 34;
+    print result $n;
+}

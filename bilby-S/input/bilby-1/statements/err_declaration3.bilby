@@ -1,0 +1,4 @@
+main {
+	imm ja * 3 := 12;
+	print ja $n;
+}

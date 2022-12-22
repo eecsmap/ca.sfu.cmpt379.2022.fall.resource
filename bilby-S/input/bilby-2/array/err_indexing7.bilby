@@ -1,0 +1,4 @@
+main {
+	mut barn := 1.77;
+	print barn[#a] $n;
+}

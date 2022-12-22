@@ -1,0 +1,4 @@
+main {
+    imm result := #r - 76;
+    print result $n;
+}

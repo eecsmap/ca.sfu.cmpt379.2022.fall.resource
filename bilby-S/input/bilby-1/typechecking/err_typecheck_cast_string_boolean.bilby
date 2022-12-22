@@ -1,0 +1,4 @@
+main {
+    imm result := [ "pf" as bool ];
+    print result $n;
+}

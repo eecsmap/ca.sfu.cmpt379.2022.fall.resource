@@ -1,0 +1,6 @@
+main {
+	imm c := 3 - 4 - 5;
+	imm d := 3 - (4 - 5);
+	imm e := (3 - (4 - 5));
+	print c $s d $s e $n;
+}

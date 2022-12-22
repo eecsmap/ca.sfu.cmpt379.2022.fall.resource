@@ -1,0 +1,6 @@
+main {
+    imm result := [ #Y as char ];
+    mut knownType := #>;
+    knownType := result;
+    print result $n;
+}

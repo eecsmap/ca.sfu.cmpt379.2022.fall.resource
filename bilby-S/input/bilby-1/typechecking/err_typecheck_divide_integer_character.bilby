@@ -1,0 +1,4 @@
+main {
+    imm result := 9 / #(;
+    print result $n;
+}

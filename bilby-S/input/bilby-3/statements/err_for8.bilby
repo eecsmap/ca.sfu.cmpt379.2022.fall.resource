@@ -1,0 +1,6 @@
+main {
+	for(i+3 in <#a..#d>) {
+		print 4 $s;
+	}
+	print $n;
+}

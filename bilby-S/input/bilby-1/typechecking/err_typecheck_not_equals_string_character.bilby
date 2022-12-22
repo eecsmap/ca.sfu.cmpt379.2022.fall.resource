@@ -1,0 +1,4 @@
+main {
+    imm result := "n_8&" != #?;
+    print result $n;
+}

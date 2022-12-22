@@ -1,0 +1,9 @@
+main {
+	imm nein := false;
+	
+		mut ja := true;
+		ja := false;
+		print ja $n;
+	}
+	print nein $n;
+}

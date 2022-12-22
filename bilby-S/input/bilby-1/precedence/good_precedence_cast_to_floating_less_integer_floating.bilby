@@ -1,0 +1,43 @@
+main {
+
+  print [ 74 as float ] < 3.5 $n;
+  print [ 65 as float ] < 7.1 $n;
+  print [ 63 as float ] < 9.5 $n;
+  print [ 3 as float ] < 5.8 $n;
+  print [ 77 as float ] < 1.3 $n;
+  print [ 88 as float ] < 1.0 $n;
+  print [ 76 as float ] < 3.4 $n;
+  print [ 89 as float ] < 4.1 $n;
+  print [ 55 as float ] < 9.2 $n;
+  print [ 40 as float ] < 3.0 $n;
+  print [ 35 as float ] < 5.9 $n;
+  print [ 81 as float ] < 3.1 $n;
+
+  print 1.5 < [ 80 as float ] $n;
+  print 3.3 < [ 12 as float ] $n;
+  print 6.8 < [ 60 as float ] $n;
+  print 7.5 < [ 3 as float ] $n;
+  print 1.7 < [ 12 as float ] $n;
+  print 6.5 < [ 45 as float ] $n;
+  print 4.1 < [ 71 as float ] $n;
+  print 2.4 < [ 71 as float ] $n;
+  print 7.2 < [ 36 as float ] $n;
+  print 2.9 < [ 19 as float ] $n;
+  print 6.8 < [ 52 as float ] $n;
+  print 5.4 < [ 56 as float ] $n;
+
+  print [ 30 as float ] < [ 29 as float ] $n;
+  print [ 59 as float ] < [ 42 as float ] $n;
+  print [ 56 as float ] < [ 34 as float ] $n;
+  print [ 10 as float ] < [ 74 as float ] $n;
+  print [ 33 as float ] < [ 28 as float ] $n;
+  print [ 4 as float ] < [ 91 as float ] $n;
+  print [ 63 as float ] < [ 31 as float ] $n;
+  print [ 52 as float ] < [ 62 as float ] $n;
+  print [ 16 as float ] < [ 17 as float ] $n;
+  print [ 10 as float ] < [ 6 as float ] $n;
+  print [ 91 as float ] < [ 74 as float ] $n;
+  print [ 98 as float ] < [ 50 as float ] $n;
+
+}
+

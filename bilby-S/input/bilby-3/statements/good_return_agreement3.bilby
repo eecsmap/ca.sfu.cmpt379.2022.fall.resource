@@ -1,0 +1,50 @@
+func int mod (int number, int modulus) {
+	if(number <= 0) {
+		return 0;
+	}
+	imm dividend := number / modulus;
+	imm remainder := number - (dividend * modulus);
+	return remainder;
+}
+
+func [int] syrup (int number) {
+	if(number < 0) {
+		return [42, 21];
+	}
+	if(mod(number, 7) == 0) {
+		return [5 * number + 3, 7 * number + 5, 3 * number + 1];
+	}
+	else {
+		if(mod(number, 2) == 0) {
+			return [number / 2, number / 4];
+		} 
+		else {
+			return [3 * number + 1];
+		}
+	}
+}
+
+func void sequence(int startingNumber) {
+	print $n;
+	
+	mut num := startingNumber;
+	while (num != 1) {
+		imm rum := syrup(num);
+		num := rum[0];
+		print rum $n;
+	}
+	print num $n;
+	return;
+}
+
+main {
+	imm min := 90;
+	imm max := 100;
+	
+	mut count := min;
+	while (count < max) {
+		call sequence(count);
+		count := count + 1;
+	}
+	print "done." $n;
+}

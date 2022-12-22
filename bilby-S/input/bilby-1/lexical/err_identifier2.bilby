@@ -1,0 +1,4 @@
+main {
+	imm Abd^ := 2;
+	print Abd^ $n;
+}

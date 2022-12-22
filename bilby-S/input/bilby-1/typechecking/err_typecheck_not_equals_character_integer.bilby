@@ -1,0 +1,4 @@
+main {
+    imm result := #Y != 85;
+    print result $n;
+}

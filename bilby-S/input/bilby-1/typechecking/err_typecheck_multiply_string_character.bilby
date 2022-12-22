@@ -1,0 +1,4 @@
+main {
+    imm result := "4c1" * #L;
+    print result $n;
+}

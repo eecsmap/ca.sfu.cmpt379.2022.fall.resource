@@ -1,0 +1,6 @@
+main {
+    imm result := [ 64 as char ];
+    mut knownType := #t;
+    knownType := result;
+    print result $n;
+}

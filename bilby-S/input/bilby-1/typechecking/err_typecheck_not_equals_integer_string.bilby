@@ -1,0 +1,4 @@
+main {
+    imm result := 98 != "nu9vsw";
+    print result $n;
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := "YF" < 28;
+    print result $n;
+}

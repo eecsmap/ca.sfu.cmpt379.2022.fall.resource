@@ -1,0 +1,6 @@
+main {
+	mut i := [#A, #z];
+	print i $n;
+	[#a, #Z] := [#1, #3];
+	print i $n;
+}

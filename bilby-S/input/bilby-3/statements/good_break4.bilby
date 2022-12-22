@@ -1,0 +1,23 @@
+main {
+	imm min := 10;
+	imm max := 20;
+	
+	mut count := min;
+	while (count < max) {
+		print $n;
+	
+		mut num := count;
+		print num $n;
+		while (num != 1) {
+			num := num / 2;
+			if(num == 8) {
+				break;
+			}
+			print num $n;
+		}
+		print num $n;
+	
+		count := count + 1;
+	}
+	print "done." $n;
+}

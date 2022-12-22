@@ -1,0 +1,4 @@
+main {
+    imm result := "lCJ" + "i(";
+    print result $n;
+}

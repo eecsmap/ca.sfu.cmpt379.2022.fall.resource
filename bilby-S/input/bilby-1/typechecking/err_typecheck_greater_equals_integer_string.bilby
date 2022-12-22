@@ -1,0 +1,4 @@
+main {
+    imm result := 84 >= "X1BqyJT";
+    print result $n;
+}

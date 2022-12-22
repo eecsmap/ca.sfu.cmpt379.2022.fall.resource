@@ -1,0 +1,6 @@
+main {
+    imm result := 8.0 < 6.9;
+    mut knownType := false;
+    knownType := result;
+    print result $n;
+}

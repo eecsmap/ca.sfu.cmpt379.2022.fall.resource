@@ -1,0 +1,4 @@
+main {
+    imm result := "dC3k^w_" >= false;
+    print result $n;
+}

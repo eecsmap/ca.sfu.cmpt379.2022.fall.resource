@@ -1,0 +1,4 @@
+main {
+    imm result := 3.8 - "l-3}jX";
+    print result $n;
+}

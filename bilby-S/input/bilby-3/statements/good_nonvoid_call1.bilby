@@ -1,0 +1,20 @@
+func int giveNum (int number) {
+	if((number / 2)*2 == number) {
+		return number / 2;
+	} 
+	else {
+		return 3 * number + 1;
+	}
+}
+
+main {
+	imm max := 800000;
+	
+	mut count := 0;
+	while (count < max) {
+		call giveNum(count);
+		count := count + 1;
+	}
+	print "done." $n;
+	% if you don't throw away the call results, they might accumulate on the accumulator;
+}

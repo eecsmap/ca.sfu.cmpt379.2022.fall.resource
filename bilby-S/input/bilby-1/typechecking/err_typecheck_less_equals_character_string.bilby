@@ -1,0 +1,4 @@
+main {
+    imm result := #I <= "dI";
+    print result $n;
+}

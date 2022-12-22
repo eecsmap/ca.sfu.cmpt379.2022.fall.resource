@@ -1,0 +1,10 @@
+func void printNum(void number) {
+	print # $ 10;
+	return;
+}
+
+main {
+	imm max := 10;
+	call printNum(max);
+}
+

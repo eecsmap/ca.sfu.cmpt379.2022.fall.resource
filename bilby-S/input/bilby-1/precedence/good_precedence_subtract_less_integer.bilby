@@ -1,0 +1,43 @@
+main {
+
+  print 76 - 71 < 38 $n;
+  print 28 - 91 < 21 $n;
+  print 42 - 7 < 2 $n;
+  print 98 - 77 < 84 $n;
+  print 13 - 63 < 73 $n;
+  print 5 - 60 < 42 $n;
+  print 21 - 73 < 68 $n;
+  print 81 - 26 < 52 $n;
+  print 13 - 43 < 58 $n;
+  print 24 - 80 < 32 $n;
+  print 17 - 15 < 99 $n;
+  print 73 - 47 < 43 $n;
+
+  print 12 < 30 - 64 $n;
+  print 31 < 76 - 57 $n;
+  print 64 < 40 - 92 $n;
+  print 68 < 92 - 75 $n;
+  print 26 < 25 - 33 $n;
+  print 85 < 68 - 61 $n;
+  print 9 < 3 - 13 $n;
+  print 47 < 7 - 89 $n;
+  print 84 < 69 - 23 $n;
+  print 16 < 89 - 49 $n;
+  print 73 < 54 - 10 $n;
+  print 31 < 2 - 62 $n;
+
+  print 15 - 90 < 45 - 45 $n;
+  print 27 - 71 < 19 - 82 $n;
+  print 92 - 69 < 50 - 65 $n;
+  print 54 - 4 < 36 - 74 $n;
+  print 18 - 65 < 9 - 95 $n;
+  print 51 - 79 < 44 - 56 $n;
+  print 93 - 95 < 86 - 4 $n;
+  print 60 - 19 < 64 - 7 $n;
+  print 79 - 4 < 49 - 66 $n;
+  print 79 - 64 < 93 - 61 $n;
+  print 2 - 92 < 8 - 34 $n;
+  print 55 - 33 < 48 - 42 $n;
+
+}
+

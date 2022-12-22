@@ -1,0 +1,6 @@
+main {
+	mut i := 14.9;
+	print i $n;
+	i := 33.3;
+	print i $n;
+}

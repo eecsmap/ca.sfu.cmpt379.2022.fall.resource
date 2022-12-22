@@ -1,0 +1,6 @@
+main {
+	for((i) in <2..5>) {
+		print i*i $s;
+	}
+	print $n;
+}

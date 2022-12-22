@@ -1,0 +1,4 @@
+main {
+    imm result := [ 2.5 as string ];
+    print result $n;
+}

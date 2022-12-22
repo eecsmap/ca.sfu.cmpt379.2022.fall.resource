@@ -1,0 +1,5 @@
+main {
+	imm farm := [18, 71, 52, 42];
+	imm tractor := [4, 0, 0, 2];
+	print farm[tractor] $n;
+}

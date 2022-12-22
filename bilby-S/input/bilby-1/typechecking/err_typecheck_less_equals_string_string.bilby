@@ -1,0 +1,4 @@
+main {
+    imm result := "em)8#>" <= "*]";
+    print result $n;
+}

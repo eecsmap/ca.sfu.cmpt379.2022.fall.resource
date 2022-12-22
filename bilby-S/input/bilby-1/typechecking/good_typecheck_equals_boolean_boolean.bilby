@@ -1,0 +1,6 @@
+main {
+    imm result := false == false;
+    mut knownType := false;
+    knownType := result;
+    print result $n;
+}

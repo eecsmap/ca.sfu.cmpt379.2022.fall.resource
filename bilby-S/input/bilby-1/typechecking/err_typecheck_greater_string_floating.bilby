@@ -1,0 +1,4 @@
+main {
+    imm result := "|-A_,nS" > 2.0;
+    print result $n;
+}

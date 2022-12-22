@@ -1,0 +1,4 @@
+main {
+    imm result := 1.9 / "#Z:";
+    print result $n;
+}

@@ -1,0 +1,5 @@
+main {
+	imm farm := [18, 71, 52, 42];
+	mut barn := 1.77;
+	print barn[0] $n;
+}

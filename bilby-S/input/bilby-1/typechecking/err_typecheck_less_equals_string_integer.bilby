@@ -1,0 +1,4 @@
+main {
+    imm result := "<+" <= 11;
+    print result $n;
+}

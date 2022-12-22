@@ -1,0 +1,24 @@
+
+
+func int syrup (int number) {
+	mut habanero := 0.25;
+	if(number / 2 == 0) {
+		habanero := number / 2;
+	} 
+	else {
+		habanero := 3 * number + 1;
+	}
+	return habanero;
+}
+
+
+main {
+	imm min := 90;
+	imm max := 100;
+	
+	mut count := min;
+	while (count < max) {
+		count := count + 1;
+	}
+	print "done." $n;
+}

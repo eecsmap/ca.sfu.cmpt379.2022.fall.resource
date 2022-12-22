@@ -1,0 +1,3 @@
+main {
+	print -2 in <-2..2> $s true $n;
+}

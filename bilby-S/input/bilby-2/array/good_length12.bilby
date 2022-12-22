@@ -1,0 +1,4 @@
+main {
+	imm grab := [[#a, #b], alloc[char](0), [#c, #d, #e]];
+	print length grab[1] $s 0 $n; 			
+}

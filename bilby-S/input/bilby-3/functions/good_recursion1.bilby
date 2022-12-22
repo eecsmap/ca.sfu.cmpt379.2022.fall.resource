@@ -1,0 +1,16 @@
+func int pax(int a, int b) {
+	print "pax(" $ a $ ", " $ b $ ")" $n;
+	if (a < b) {
+	    return a;
+	}
+	return b + pax(a, 3*b);
+}
+
+main {
+	imm max := 5;
+	
+	mut count := 0;
+	print pax(128256, 4) $n;
+	
+	print "all done." $n;
+}

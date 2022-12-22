@@ -1,0 +1,43 @@
+main {
+
+  print [ #% as int ] > 28 $n;
+  print [ #: as int ] > 64 $n;
+  print [ #t as int ] > 92 $n;
+  print [ #y as int ] > 56 $n;
+  print [ #e as int ] > 85 $n;
+  print [ #[ as int ] > 67 $n;
+  print [ #W as int ] > 27 $n;
+  print [ #\ as int ] > 2 $n;
+  print [ #O as int ] > 88 $n;
+  print [ #` as int ] > 22 $n;
+  print [ #& as int ] > 33 $n;
+  print [ #k as int ] > 47 $n;
+
+  print 92 > [ #m as int ] $n;
+  print 11 > [ #  as int ] $n;
+  print 74 > [ #. as int ] $n;
+  print 85 > [ #J as int ] $n;
+  print 76 > [ #v as int ] $n;
+  print 86 > [ #p as int ] $n;
+  print 36 > [ #u as int ] $n;
+  print 68 > [ #) as int ] $n;
+  print 5 > [ #r as int ] $n;
+  print 95 > [ #e as int ] $n;
+  print 48 > [ #b as int ] $n;
+  print 86 > [ #R as int ] $n;
+
+  print [ #M as int ] > [ #a as int ] $n;
+  print [ #Z as int ] > [ #K as int ] $n;
+  print [ #k as int ] > [ #: as int ] $n;
+  print [ #L as int ] > [ #o as int ] $n;
+  print [ #Q as int ] > [ #( as int ] $n;
+  print [ #B as int ] > [ #G as int ] $n;
+  print [ #t as int ] > [ #} as int ] $n;
+  print [ #K as int ] > [ #A as int ] $n;
+  print [ #+ as int ] > [ #L as int ] $n;
+  print [ #] as int ] > [ #^ as int ] $n;
+  print [ #. as int ] > [ #h as int ] $n;
+  print [ #F as int ] > [ #Y as int ] $n;
+
+}
+

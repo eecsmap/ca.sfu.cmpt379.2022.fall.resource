@@ -1,0 +1,4 @@
+main {
+    imm result := #m / "\eq";
+    print result $n;
+}

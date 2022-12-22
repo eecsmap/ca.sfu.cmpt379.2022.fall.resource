@@ -1,0 +1,22 @@
+func void holler(int a, int b, int c, int d, int e){
+	% checking multiple arguments
+	print a $s b $s c $s d $s e $n;
+	print stomp(3, 5, 7, 9) $n;
+	return;
+}
+func int stomp(int w, int x, int y, int z) {
+	print $s z $s y $s x $s w $n;
+	return w*x*y*z;
+}
+
+main {
+	call holler(1, 2, 3, 4, 5);
+	
+	mut m := 0.34;
+	call holler(2, 4, 6, 8, 10);
+	
+	print m $n;
+	
+	print "all done." $n;
+}
+

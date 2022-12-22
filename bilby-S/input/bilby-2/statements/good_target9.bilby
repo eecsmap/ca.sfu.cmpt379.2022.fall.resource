@@ -1,0 +1,6 @@
+main {
+	mut i := [1, 2, 3];
+	print i $n;
+	(i[2]) := 4;
+	print i $n;
+}

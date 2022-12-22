@@ -1,0 +1,4 @@
+main {
+    imm result := true != #z;
+    print result $n;
+}

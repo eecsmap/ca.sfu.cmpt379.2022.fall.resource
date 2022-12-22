@@ -1,0 +1,4 @@
+main {
+	mut harp := [true, true, false];
+	print harp $n;
+}

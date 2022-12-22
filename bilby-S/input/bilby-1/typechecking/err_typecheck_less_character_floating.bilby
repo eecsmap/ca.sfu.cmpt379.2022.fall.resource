@@ -1,0 +1,4 @@
+main {
+    imm result := #u < 6.4;
+    print result $n;
+}

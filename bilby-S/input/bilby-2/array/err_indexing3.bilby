@@ -1,0 +1,4 @@
+main {
+	imm farm := <71..152>;
+	print farm[#a] $n;
+}

@@ -1,0 +1,7 @@
+main {
+	mut darb := [#a, #d, #g, #e];
+	print #a == darb[0] $n;
+	print #d == darb[1] $n;
+	print #g == darb[2] $n;
+	print #e == darb[3] $n;
+}

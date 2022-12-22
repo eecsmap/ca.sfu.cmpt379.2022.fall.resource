@@ -1,0 +1,5 @@
+main {
+	mut b := true;
+	b := #@;
+	print b $s #@ $n;
+}

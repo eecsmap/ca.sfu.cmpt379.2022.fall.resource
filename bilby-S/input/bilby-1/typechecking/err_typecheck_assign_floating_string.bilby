@@ -1,0 +1,5 @@
+main {
+    mut result := 1.3;
+    result := "b,5?";
+    print result $n;
+}

@@ -1,0 +1,10 @@
+main {
+    imm nickels := 11;
+    imm pennies := 5;
+    imm value := 
+    			 nickels * 5 +
+    			 pennies;
+    print value $n;
+    imm bad := 25 * true;
+    print bad $n;
+}

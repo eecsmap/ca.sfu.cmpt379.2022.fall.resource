@@ -1,0 +1,4 @@
+main {
+    imm result := #V > 92;
+    print result $n;
+}

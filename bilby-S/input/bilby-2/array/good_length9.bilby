@@ -1,0 +1,4 @@
+main {
+	imm gram := alloc[int](0);
+	print length gram $s 0 $n;
+}

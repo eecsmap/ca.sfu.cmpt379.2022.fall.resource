@@ -1,0 +1,6 @@
+main {
+	mut i := #a;
+	print i $n;
+	(i) := #c;
+	print i $n;
+}

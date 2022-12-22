@@ -1,0 +1,3 @@
+main {
+	print 3.4 in <2.6..3.4> $s true $n;
+}

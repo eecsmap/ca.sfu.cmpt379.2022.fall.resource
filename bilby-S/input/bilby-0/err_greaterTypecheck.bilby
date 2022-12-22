@@ -1,0 +1,14 @@
+main {
+    imm quarters := 5;
+    imm dimes := 3;
+    imm nickels := 7;
+    imm pennies := 17;
+    imm value := quarters * 25 +
+    			 dimes * 10 +
+    			 nickels * 5 +
+    			 pennies;
+    print value $n;
+    
+
+    imm bad :=  false > 3*4+2*1;
+}

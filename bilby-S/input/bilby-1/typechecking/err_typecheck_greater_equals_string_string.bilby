@@ -1,0 +1,4 @@
+main {
+    imm result := "!}yF" >= "z|H3K>";
+    print result $n;
+}

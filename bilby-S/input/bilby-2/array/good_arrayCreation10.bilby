@@ -1,0 +1,25 @@
+main {
+	imm AAA := alloc[[[char]]](3);
+	
+	AAA[0] := alloc[[char]](3);
+	AAA[1] := alloc[[char]](3);
+	AAA[2] := alloc[[char]](3);
+	
+	AAA[0][0] := [#a, #b, #c];
+	AAA[0][1] := [#d, #e, #f];
+	AAA[0][2] := [#g, #h, #i, #j, #k];
+	
+	AAA[1][0] := [#A, #B, #C, #D];
+	AAA[1][1] := AAA[1][0];
+	AAA[1][2] := [#I, #J, #K];
+	
+	AAA[2][0] := [#=];
+	AAA[2][1] := [#-, #+, #*, #/];
+	AAA[2][2] := [#@, ###, #$, #%];
+	
+	AAA[1][0][1] := #E;
+	AAA[1][0][2] := #F;
+	
+	print AAA[1][1] $n;
+	print AAA $n;
+}

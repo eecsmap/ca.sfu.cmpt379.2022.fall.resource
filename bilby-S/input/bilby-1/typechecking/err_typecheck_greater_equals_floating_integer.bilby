@@ -1,0 +1,4 @@
+main {
+    imm result := 6.0 >= 86;
+    print result $n;
+}

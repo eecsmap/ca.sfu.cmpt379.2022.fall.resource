@@ -1,0 +1,21 @@
+main {
+	imm max := 40;
+	mut prevFib := 0;
+	mut thisFib := 1;
+	mut n := 1;
+	
+	print $s 0 $s prevFib $n;
+	print $s 1 $s thisFib $n;
+	
+	while (n < max) {
+		imm prevHolder := thisFib;
+		thisFib := thisFib + prevFib;
+		prevFib := prevHolder;
+		
+		n := n + 1;
+		if(n<10) {
+			print $s;
+		}
+		print n $s thisFib $n;
+	}
+}

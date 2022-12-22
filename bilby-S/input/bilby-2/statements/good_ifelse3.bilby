@@ -1,0 +1,10 @@
+main {
+	if (45 - 27 == 4 * 3 + 2)  {
+		print "then" $n;
+	}
+	else {
+		print "else" $n;
+	}
+	print "after" $n;
+}
+

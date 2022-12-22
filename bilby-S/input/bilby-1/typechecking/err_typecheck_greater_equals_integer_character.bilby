@@ -1,0 +1,4 @@
+main {
+    imm result := 52 >= #s;
+    print result $n;
+}

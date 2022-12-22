@@ -1,0 +1,3 @@
+main {
+	print 4 - #c $s -95 $n;
+}

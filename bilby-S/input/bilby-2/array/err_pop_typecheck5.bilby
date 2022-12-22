@@ -1,0 +1,4 @@
+main {
+	mut barb := [1, false];
+	print barb $n;
+}

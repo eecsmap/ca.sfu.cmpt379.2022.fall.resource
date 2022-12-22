@@ -1,0 +1,14 @@
+
+main {
+	print ( true ||  true) &&  true $s;
+	print ( true || false) &&  true $s;
+	print (false ||  true) &&  true $s;
+	print (false || false) &&  true;
+	print $n$n;
+
+	print ( true ||  true) &&  false $s;
+	print ( true || false) &&  false $s;
+	print (false ||  true) &&  false $s;
+	print (false || false) &&  false;
+	print $n$n;
+}

@@ -1,0 +1,5 @@
+main {
+	mut b := true;
+	b := 324;
+	print b $s 324 $n;
+}

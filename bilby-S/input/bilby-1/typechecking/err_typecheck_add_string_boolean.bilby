@@ -1,0 +1,4 @@
+main {
+    imm result := "/D\V0" + false;
+    print result $n;
+}

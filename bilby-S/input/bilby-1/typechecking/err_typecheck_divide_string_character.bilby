@@ -1,0 +1,4 @@
+main {
+    imm result := "#()<Z.C" / #,;
+    print result $n;
+}

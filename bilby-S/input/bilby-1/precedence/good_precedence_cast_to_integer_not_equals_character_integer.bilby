@@ -1,0 +1,43 @@
+main {
+
+  print [ #Q as int ] != 98 $n;
+  print [ #I as int ] != 44 $n;
+  print [ #d as int ] != 83 $n;
+  print [ #" as int ] != 20 $n;
+  print [ #s as int ] != 4 $n;
+  print [ #V as int ] != 76 $n;
+  print [ #/ as int ] != 55 $n;
+  print [ #F as int ] != 56 $n;
+  print [ #Y as int ] != 29 $n;
+  print [ #w as int ] != 10 $n;
+  print [ #{ as int ] != 53 $n;
+  print [ #" as int ] != 24 $n;
+
+  print 53 != [ #[ as int ] $n;
+  print 8 != [ #| as int ] $n;
+  print 2 != [ #} as int ] $n;
+  print 42 != [ #l as int ] $n;
+  print 44 != [ #X as int ] $n;
+  print 92 != [ #Z as int ] $n;
+  print 48 != [ #B as int ] $n;
+  print 44 != [ #q as int ] $n;
+  print 18 != [ #p as int ] $n;
+  print 92 != [ #= as int ] $n;
+  print 17 != [ #= as int ] $n;
+  print 61 != [ #^ as int ] $n;
+
+  print [ #P as int ] != [ #T as int ] $n;
+  print [ #V as int ] != [ #< as int ] $n;
+  print [ #F as int ] != [ #x as int ] $n;
+  print [ #b as int ] != [ #e as int ] $n;
+  print [ #Z as int ] != [ #M as int ] $n;
+  print [ #h as int ] != [ #w as int ] $n;
+  print [ #) as int ] != [ #P as int ] $n;
+  print [ #n as int ] != [ #t as int ] $n;
+  print [ #G as int ] != [ #  as int ] $n;
+  print [ #, as int ] != [ #& as int ] $n;
+  print [ #w as int ] != [ #= as int ] $n;
+  print [ #J as int ] != [ #q as int ] $n;
+
+}
+

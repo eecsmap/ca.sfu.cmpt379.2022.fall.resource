@@ -1,0 +1,12 @@
+main {
+	imm min := 10;
+	imm max := 20;
+	
+	for (count in <min..max>) {
+		if(count == 15) {
+			continue;
+		}
+		print count $s;
+	}
+	print "done." $n;
+}

@@ -1,0 +1,3 @@
+main {
+	print high <-14..14> $n;
+}

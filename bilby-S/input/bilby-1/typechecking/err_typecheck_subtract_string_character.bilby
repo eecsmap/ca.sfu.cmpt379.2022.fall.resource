@@ -1,0 +1,4 @@
+main {
+    imm result := "jPR*W" - #X;
+    print result $n;
+}

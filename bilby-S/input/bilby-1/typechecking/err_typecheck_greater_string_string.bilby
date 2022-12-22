@@ -1,0 +1,4 @@
+main {
+    imm result := "uTc" > "Qmqaqm";
+    print result $n;
+}

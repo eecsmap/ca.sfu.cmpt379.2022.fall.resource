@@ -1,0 +1,4 @@
+main {
+    imm result := "jv" - 34;
+    print result $n;
+}

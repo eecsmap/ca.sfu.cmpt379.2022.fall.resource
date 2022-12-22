@@ -1,0 +1,5 @@
+main {
+    mut result := "Ys/ZC|B";
+    result := 3.2;
+    print result $n;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.epic.debug.launchConfigurationPerl">
+    <stringAttribute key="ATTR_PROGRAM_PARAMETERS" value="${selected_resource_loc}"/>
+    <stringAttribute key="ATTR_PROJECT_NAME" value="bilby"/>
+    <stringAttribute key="ATTR_STARTUP_FILE" value="input/regressionTests.pl"/>
+    <stringAttribute key="bad_container_name" value="\bilbyStudents202\runConfigurations"/>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+    </listAttribute>
+</launchConfiguration>

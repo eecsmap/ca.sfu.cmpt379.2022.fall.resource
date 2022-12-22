@@ -1,0 +1,5 @@
+main {
+	imm AA := alloc[int](8);
+	AA[2] := 14;
+	print AA $n;
+}

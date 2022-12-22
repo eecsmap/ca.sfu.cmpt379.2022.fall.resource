@@ -1,0 +1,7 @@
+main {
+	imm R := <3..7>;
+	for(i in R) {
+		print i*i $s;
+	}
+	print $n;
+}

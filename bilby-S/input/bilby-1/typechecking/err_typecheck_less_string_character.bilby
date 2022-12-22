@@ -1,0 +1,4 @@
+main {
+    imm result := "bO4(" < #-;
+    print result $n;
+}

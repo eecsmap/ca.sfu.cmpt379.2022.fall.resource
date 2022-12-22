@@ -1,0 +1,4 @@
+main {
+	mut darb := [#a, #d, #g, #e];
+	print darb $n;
+}

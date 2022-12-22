@@ -1,0 +1,4 @@
+main {
+    imm result := "psc." >= 6.2;
+    print result $n;
+}

@@ -1,0 +1,14 @@
+main {
+	imm a := false;
+	imm b := true;
+	if (a) {
+		print 21 $n;
+	}
+	else if (b) {
+		print 42 $n;
+	}
+	else {
+		print 84 $n;
+	}
+	print "after" $n;
+}

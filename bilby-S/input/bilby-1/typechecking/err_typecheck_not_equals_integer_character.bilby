@@ -1,0 +1,4 @@
+main {
+    imm result := 9 != #A;
+    print result $n;
+}

@@ -1,0 +1,3 @@
+main {
+	print #h $ #i $s alloc[int](0) $s #b$ #u$ #d$n;
+}

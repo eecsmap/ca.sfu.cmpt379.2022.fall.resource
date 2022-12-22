@@ -1,0 +1,4 @@
+main {
+	imm @bcd := 4;
+	print @bcd $n;
+}

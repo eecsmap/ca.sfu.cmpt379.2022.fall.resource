@@ -1,0 +1,4 @@
+main {
+    imm result := 27 / "J:hvSd";
+    print result $n;
+}

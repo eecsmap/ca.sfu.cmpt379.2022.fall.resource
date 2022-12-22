@@ -1,0 +1,6 @@
+main {
+	mut i := [#A, #z];
+	print i $n;
+	(alloc[char](2)) := [#1, #3];
+	print i $n;
+}

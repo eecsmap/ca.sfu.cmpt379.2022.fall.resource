@@ -1,0 +1,4 @@
+main {
+    imm result := false * "T_vl{";
+    print result $n;
+}

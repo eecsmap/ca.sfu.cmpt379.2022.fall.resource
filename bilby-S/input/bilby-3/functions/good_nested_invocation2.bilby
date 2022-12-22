@@ -1,0 +1,33 @@
+
+func [int] cow(int a, int b, int c, int d){
+	imm e := a;
+	imm f := a + b;
+	imm g := a + b + c;
+	imm h := a + b + c + d;
+	imm result := [e, f, g, h];
+	return result;
+}
+
+func float goat(int w, int x, int y) {
+	imm a := [w as float] / x;
+	imm b :=  [w as float] / y;
+	
+	if (w < 24) {
+	    return a;
+	}
+	return b;
+}
+
+main {
+	imm mx := 5;
+	imm my := 7;
+	
+	print goat(21, 10, 3) $n;
+	print cow(9, 10, 11, 12) $n;
+	print cow(4, 5, cow(9, 10, 11, 12)[2], 7) $n;
+	
+	mut AA := cow(1, 2, [goat(21, 10, 3) as int], cow(4, 5, cow(9, 10, 11, 12)[2], 7)[3]);
+	print AA $n;
+	
+	print "all done." $n;
+}

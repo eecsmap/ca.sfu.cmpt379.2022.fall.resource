@@ -1,0 +1,6 @@
+main {
+    imm result := [ #$ as bool ];
+    mut knownType := true;
+    knownType := result;
+    print result $n;
+}

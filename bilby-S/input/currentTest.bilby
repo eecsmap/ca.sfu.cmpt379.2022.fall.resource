@@ -1,0 +1,24 @@
+main {
+	imm quarters :=  5;
+	imm dimes    :=  3;
+	imm nickels  :=  7;
+	imm pennies  := 17;
+    
+	imm value := quarters * 25 +
+    			 dimes    * 10 +
+    			 nickels  *  5 +
+    			 pennies;
+	print value $n;
+    
+	imm ncoins := quarters + dimes + nickels + pennies;
+	print ncoins $n;
+    
+	imm moredimes := dimes > nickels;
+	print moredimes $n;
+
+	imm boot := true;
+	imm boof := false;
+    
+	print boot $s boof $n;
+	print boot $ boof $n;
+}

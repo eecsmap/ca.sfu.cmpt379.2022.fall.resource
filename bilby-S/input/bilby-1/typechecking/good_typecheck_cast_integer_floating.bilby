@@ -1,0 +1,6 @@
+main {
+    imm result := [ 13 as float ];
+    mut knownType := 7.0;
+    knownType := result;
+    print result $n;
+}

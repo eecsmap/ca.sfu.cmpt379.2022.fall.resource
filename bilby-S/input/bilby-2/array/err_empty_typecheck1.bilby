@@ -1,0 +1,4 @@
+main {
+	mut farm := alloc[int](3.21);
+	print length $s farm $n;
+}

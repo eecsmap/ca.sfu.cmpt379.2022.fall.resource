@@ -1,0 +1,4 @@
+main {
+    imm result := "Kj8+|%Z" == 6.6;
+    print result $n;
+}

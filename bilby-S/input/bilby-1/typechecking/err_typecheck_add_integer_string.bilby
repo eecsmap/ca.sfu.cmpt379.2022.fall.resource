@@ -1,0 +1,4 @@
+main {
+    imm result := 37 + "47G@aQ";
+    print result $n;
+}

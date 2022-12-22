@@ -1,0 +1,7 @@
+main {
+	imm a := 14;
+	while (a) {
+		print "then" $n;
+	}
+	print "after" $n;
+}

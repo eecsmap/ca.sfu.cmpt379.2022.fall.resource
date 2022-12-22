@@ -1,0 +1,4 @@
+main {
+    imm result := #f != "(VW";
+    print result $n;
+}

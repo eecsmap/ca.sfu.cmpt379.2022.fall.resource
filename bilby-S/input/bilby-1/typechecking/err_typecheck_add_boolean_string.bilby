@@ -1,0 +1,4 @@
+main {
+    imm result := false + "/6!";
+    print result $n;
+}

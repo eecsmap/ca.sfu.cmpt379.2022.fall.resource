@@ -1,0 +1,4 @@
+main {
+    imm result := "GR" <= true;
+    print result $n;
+}

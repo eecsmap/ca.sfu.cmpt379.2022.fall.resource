@@ -1,0 +1,3 @@
+main {
+	print #a + 4 $s 101 $n;
+}

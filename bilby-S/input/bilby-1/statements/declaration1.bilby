@@ -1,0 +1,4 @@
+main {
+	mut ja := true;
+	print ja $n;
+}

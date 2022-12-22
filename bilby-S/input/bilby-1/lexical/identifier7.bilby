@@ -1,0 +1,4 @@
+main {
+	imm Ab@d := 7;
+	print Ab@d $n;
+}

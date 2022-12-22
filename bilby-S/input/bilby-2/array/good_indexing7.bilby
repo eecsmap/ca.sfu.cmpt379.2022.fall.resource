@@ -1,0 +1,9 @@
+main {
+	imm barn := alloc[float](5);
+	mut i := 0;
+	while(i < length barn) {
+		barn[i] := [(i*i) as float];
+		i := i + 1;
+	}
+	print barn[0] $s barn[1] $s barn[2] $s barn[3] $s barn[4] $n;
+}

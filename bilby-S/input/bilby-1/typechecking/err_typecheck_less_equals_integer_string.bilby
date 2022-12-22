@@ -1,0 +1,4 @@
+main {
+    imm result := 96 <= "7a";
+    print result $n;
+}

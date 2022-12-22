@@ -1,0 +1,4 @@
+main {
+    imm result := 61 - "1.{9`r|";
+    print result $n;
+}

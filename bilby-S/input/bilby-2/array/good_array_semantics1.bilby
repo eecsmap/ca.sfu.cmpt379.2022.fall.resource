@@ -1,0 +1,7 @@
+main {
+	imm farm := alloc[int](2);
+	imm cow := farm;
+	cow[0] := 40;
+	farm[1] := 41;
+	print farm $s cow $n;
+}

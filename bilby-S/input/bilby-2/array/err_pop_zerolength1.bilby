@@ -1,0 +1,4 @@
+main {
+	mut barb := [];
+	print barb $n;
+}

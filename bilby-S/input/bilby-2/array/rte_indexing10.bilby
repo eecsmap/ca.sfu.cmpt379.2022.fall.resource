@@ -1,0 +1,5 @@
+main {
+	imm farm := [[#a], [#b], [#c, #d, #e]];
+	print farm[2] $n;
+	print farm[2][7] $n;
+}

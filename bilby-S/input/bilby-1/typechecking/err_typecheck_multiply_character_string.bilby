@@ -1,0 +1,4 @@
+main {
+    imm result := #u * "^>I'v";
+    print result $n;
+}

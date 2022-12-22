@@ -1,0 +1,5 @@
+main {
+	imm v := false || (17 / 0) > 1;
+	print v $n;
+}
+

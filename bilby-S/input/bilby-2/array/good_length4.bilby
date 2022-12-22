@@ -1,0 +1,4 @@
+main {
+	mut farm := alloc[bool](17);
+	print length farm $s 17 $n;
+}

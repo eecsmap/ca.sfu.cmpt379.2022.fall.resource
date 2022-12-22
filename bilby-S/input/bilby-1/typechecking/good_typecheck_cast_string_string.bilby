@@ -1,0 +1,6 @@
+main {
+    imm result := [ "X8}X" as string ];
+    mut knownType := "c_";
+    knownType := result;
+    print result $n;
+}

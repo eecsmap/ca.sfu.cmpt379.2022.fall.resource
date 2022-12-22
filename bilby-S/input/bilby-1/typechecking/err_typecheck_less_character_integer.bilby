@@ -1,0 +1,4 @@
+main {
+    imm result := #g < 55;
+    print result $n;
+}

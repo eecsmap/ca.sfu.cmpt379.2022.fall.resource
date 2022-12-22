@@ -1,0 +1,8 @@
+main {
+
+	imm A := [0, 1, 2, 3, 4, 5, 6];
+	
+	for(i in <0..length A - 1>) {
+		print A[i] $s A[i]*A[i]*A[i] $n;
+	}
+}

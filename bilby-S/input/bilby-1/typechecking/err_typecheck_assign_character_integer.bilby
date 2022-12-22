@@ -1,0 +1,5 @@
+main {
+    mut result := #c;
+    result := 6;
+    print result $n;
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := "DjmH" != false;
+    print result $n;
+}

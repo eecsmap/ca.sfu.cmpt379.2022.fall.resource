@@ -1,0 +1,5 @@
+main {
+	imm aVariable := [#c, #h];
+	imm bVariable := [aVariable as int];
+	print bVariable $n;
+}

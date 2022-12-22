@@ -1,0 +1,4 @@
+main {
+    imm result := 2.7 > "tK";
+    print result $n;
+}

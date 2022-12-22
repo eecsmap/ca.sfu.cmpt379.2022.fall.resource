@@ -1,0 +1,16 @@
+func void holler(int a, int b, int c, int d, int e) {
+	% checking multiple arguments
+	print a $s b $s c $s d $s e $n;
+	return;
+}
+
+main {
+	call holler(1, 2, 3, 4, 5);
+	
+	mut m := 0.34;
+	call holler(2, 4, 6, 8, 10);
+	
+	print m $n;
+	
+	print "all done." $n;
+}

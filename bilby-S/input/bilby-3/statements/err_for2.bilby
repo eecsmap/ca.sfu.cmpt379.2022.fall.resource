@@ -1,0 +1,7 @@
+main {
+	imm A := [0, 1, 2, 3, 4, 5];
+	for(i in A) {
+		print i*i $s;
+	}
+	print $n;
+}

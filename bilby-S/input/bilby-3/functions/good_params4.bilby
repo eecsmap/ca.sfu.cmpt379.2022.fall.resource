@@ -1,0 +1,17 @@
+func void holler(<int> range) {
+	print range $n;
+	
+	for(n in range) {
+		print n $s "Yoo hoo!!!!" $n;
+	}
+	return;
+}
+
+main {
+	call holler( <4..8> );
+	
+	mut m := 0.34;
+	call holler( <7..10> );
+	
+	print "all done." $n;
+}

@@ -1,0 +1,43 @@
+func int syrup (int number) {
+	if(number < 0) {
+		return 42;
+	}
+	if((number/7)*7 == number) {
+		return 5 * number + 3;
+	}
+	else {
+		if((number/2)*2 == number) {
+			return number / 2;
+		} 
+		else {
+			return 3 * number + 1;
+		}
+	}
+}
+func void sequence(int startingNumber) {
+	print $n;
+	
+	mut num := startingNumber;
+	print num $n;
+	while (num != 1) {
+		num := syrup(num);
+		if(num == 4 || num == 16) {
+			continue;
+		}
+		print num $n;
+	}
+	print num $n;
+	return;
+}
+
+main {
+	imm min := 12;
+	imm max := 15;
+	
+	mut count := min;
+	while (count < max) {
+		call sequence(count);
+		count := count + 1;
+	}
+	print "done." $n;
+}

@@ -1,0 +1,22 @@
+func void holler(int number) {
+	mut n := 0;
+	print number $n;
+	while (n < number) {
+		print "Yoo hoo!!!!" $n;
+		n := n + 1;
+	}
+	return;
+}
+
+main {
+	imm max := 6;
+	call holler(5);
+	
+	mut n := 0;
+	while (n <= max) {
+		call holler(n);
+		n := n + 1;
+	}
+	
+	print "all done: " $ n $ "." $n;
+}

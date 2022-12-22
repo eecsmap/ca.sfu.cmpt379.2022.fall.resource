@@ -1,0 +1,4 @@
+main {
+	imm AbCd := 5;
+	print AbCd $n;
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := #p / #U;
+    print result $n;
+}

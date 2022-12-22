@@ -1,0 +1,14 @@
+main {
+	imm alpha := 1;
+	{
+		mut beta := 2;
+		{
+			mut alpha := 4;
+			print alpha $n;
+		}
+		alpha := 3;
+		print alpha $n;
+		print beta $n;
+	}
+	print alpha $n;
+}

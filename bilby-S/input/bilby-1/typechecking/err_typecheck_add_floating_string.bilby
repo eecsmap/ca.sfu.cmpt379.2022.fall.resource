@@ -1,0 +1,4 @@
+main {
+    imm result := 9.2 + "UEB";
+    print result $n;
+}

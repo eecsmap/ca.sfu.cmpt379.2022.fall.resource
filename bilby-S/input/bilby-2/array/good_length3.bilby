@@ -1,0 +1,4 @@
+main {
+	mut farm := [[#a, #*], [#b, #/]];
+	print length farm $s 2 $n;
+}

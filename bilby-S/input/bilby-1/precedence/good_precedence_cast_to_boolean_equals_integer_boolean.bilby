@@ -1,0 +1,43 @@
+main {
+
+  print [ 69 as bool ] == true $n;
+  print [ 66 as bool ] == false $n;
+  print [ 24 as bool ] == false $n;
+  print [ 88 as bool ] == true $n;
+  print [ 80 as bool ] == false $n;
+  print [ 98 as bool ] == true $n;
+  print [ 95 as bool ] == true $n;
+  print [ 57 as bool ] == true $n;
+  print [ 59 as bool ] == true $n;
+  print [ 12 as bool ] == true $n;
+  print [ 28 as bool ] == true $n;
+  print [ 33 as bool ] == true $n;
+
+  print true == [ 5 as bool ] $n;
+  print true == [ 23 as bool ] $n;
+  print true == [ 1 as bool ] $n;
+  print true == [ 95 as bool ] $n;
+  print false == [ 71 as bool ] $n;
+  print false == [ 57 as bool ] $n;
+  print true == [ 24 as bool ] $n;
+  print true == [ 25 as bool ] $n;
+  print true == [ 14 as bool ] $n;
+  print true == [ 3 as bool ] $n;
+  print true == [ 70 as bool ] $n;
+  print true == [ 37 as bool ] $n;
+
+  print [ 97 as bool ] == [ 71 as bool ] $n;
+  print [ 21 as bool ] == [ 7 as bool ] $n;
+  print [ 42 as bool ] == [ 66 as bool ] $n;
+  print [ 29 as bool ] == [ 52 as bool ] $n;
+  print [ 92 as bool ] == [ 83 as bool ] $n;
+  print [ 45 as bool ] == [ 32 as bool ] $n;
+  print [ 42 as bool ] == [ 15 as bool ] $n;
+  print [ 1 as bool ] == [ 85 as bool ] $n;
+  print [ 37 as bool ] == [ 96 as bool ] $n;
+  print [ 15 as bool ] == [ 38 as bool ] $n;
+  print [ 29 as bool ] == [ 8 as bool ] $n;
+  print [ 65 as bool ] == [ 82 as bool ] $n;
+
+}
+

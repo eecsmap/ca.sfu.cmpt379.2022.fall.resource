@@ -1,0 +1,5 @@
+main {
+	% comment lines in main
+	% more than one of them
+	print 224 $n;
+}

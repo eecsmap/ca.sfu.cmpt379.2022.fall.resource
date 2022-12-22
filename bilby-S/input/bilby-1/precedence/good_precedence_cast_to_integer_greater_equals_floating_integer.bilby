@@ -1,0 +1,43 @@
+main {
+
+  print [ 7.4 as int ] >= 35 $n;
+  print [ 5.1 as int ] >= 90 $n;
+  print [ 5.8 as int ] >= 21 $n;
+  print [ 6.8 as int ] >= 7 $n;
+  print [ 1.9 as int ] >= 45 $n;
+  print [ 5.3 as int ] >= 56 $n;
+  print [ 9.4 as int ] >= 58 $n;
+  print [ 2.0 as int ] >= 74 $n;
+  print [ 5.4 as int ] >= 45 $n;
+  print [ 8.4 as int ] >= 50 $n;
+  print [ 4.5 as int ] >= 96 $n;
+  print [ 6.3 as int ] >= 26 $n;
+
+  print 75 >= [ 4.0 as int ] $n;
+  print 77 >= [ 2.2 as int ] $n;
+  print 42 >= [ 5.1 as int ] $n;
+  print 94 >= [ 6.8 as int ] $n;
+  print 5 >= [ 5.4 as int ] $n;
+  print 97 >= [ 8.4 as int ] $n;
+  print 69 >= [ 3.3 as int ] $n;
+  print 91 >= [ 3.9 as int ] $n;
+  print 36 >= [ 8.2 as int ] $n;
+  print 19 >= [ 4.0 as int ] $n;
+  print 79 >= [ 2.4 as int ] $n;
+  print 95 >= [ 5.6 as int ] $n;
+
+  print [ 4.5 as int ] >= [ 3.9 as int ] $n;
+  print [ 2.3 as int ] >= [ 8.4 as int ] $n;
+  print [ 2.2 as int ] >= [ 1.2 as int ] $n;
+  print [ 7.3 as int ] >= [ 5.1 as int ] $n;
+  print [ 4.6 as int ] >= [ 1.6 as int ] $n;
+  print [ 3.1 as int ] >= [ 2.9 as int ] $n;
+  print [ 4.0 as int ] >= [ 1.8 as int ] $n;
+  print [ 9.8 as int ] >= [ 9.4 as int ] $n;
+  print [ 5.0 as int ] >= [ 6.6 as int ] $n;
+  print [ 6.7 as int ] >= [ 2.5 as int ] $n;
+  print [ 6.6 as int ] >= [ 2.9 as int ] $n;
+  print [ 4.1 as int ] >= [ 7.3 as int ] $n;
+
+}
+

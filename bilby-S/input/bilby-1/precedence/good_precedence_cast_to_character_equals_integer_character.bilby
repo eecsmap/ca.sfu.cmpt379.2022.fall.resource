@@ -1,0 +1,43 @@
+main {
+
+  print [ 21 as char ] == #p $n;
+  print [ 49 as char ] == #L $n;
+  print [ 44 as char ] == #B $n;
+  print [ 1 as char ] == #^ $n;
+  print [ 97 as char ] == #^ $n;
+  print [ 92 as char ] == #{ $n;
+  print [ 87 as char ] == #+ $n;
+  print [ 7 as char ] == #^ $n;
+  print [ 61 as char ] == #` $n;
+  print [ 53 as char ] == #n $n;
+  print [ 55 as char ] == #[ $n;
+  print [ 58 as char ] == #P $n;
+
+  print #C == [ 80 as char ] $n;
+  print #h == [ 61 as char ] $n;
+  print #X == [ 40 as char ] $n;
+  print #f == [ 99 as char ] $n;
+  print #+ == [ 7 as char ] $n;
+  print #n == [ 94 as char ] $n;
+  print #| == [ 27 as char ] $n;
+  print #H == [ 65 as char ] $n;
+  print #` == [ 19 as char ] $n;
+  print #  == [ 63 as char ] $n;
+  print #U == [ 35 as char ] $n;
+  print #a == [ 51 as char ] $n;
+
+  print [ 45 as char ] == [ 77 as char ] $n;
+  print [ 20 as char ] == [ 85 as char ] $n;
+  print [ 83 as char ] == [ 75 as char ] $n;
+  print [ 71 as char ] == [ 45 as char ] $n;
+  print [ 58 as char ] == [ 6 as char ] $n;
+  print [ 81 as char ] == [ 59 as char ] $n;
+  print [ 91 as char ] == [ 13 as char ] $n;
+  print [ 21 as char ] == [ 9 as char ] $n;
+  print [ 50 as char ] == [ 70 as char ] $n;
+  print [ 37 as char ] == [ 38 as char ] $n;
+  print [ 53 as char ] == [ 20 as char ] $n;
+  print [ 92 as char ] == [ 73 as char ] $n;
+
+}
+

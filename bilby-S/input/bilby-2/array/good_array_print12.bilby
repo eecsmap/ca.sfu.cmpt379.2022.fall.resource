@@ -1,0 +1,4 @@
+main {
+	imm hogslop := [<1..2>, <2..3>, <3..4>];
+	print hogslop $n;
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := "uH$$" * "97v";
+    print result $n;
+}

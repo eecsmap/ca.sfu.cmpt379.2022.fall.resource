@@ -1,0 +1,4 @@
+main {
+    imm result := [ 53 as string ];
+    print result $n;
+}

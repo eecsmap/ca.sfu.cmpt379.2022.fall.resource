@@ -1,0 +1,4 @@
+main {
+    imm result := true == "vZ";
+    print result $n;
+}

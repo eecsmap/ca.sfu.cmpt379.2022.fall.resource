@@ -1,0 +1,5 @@
+main {
+	mut ja := 1;
+	ja := 2.9;
+	print ja $n;
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := ")@gzk]" * false;
+    print result $n;
+}

@@ -1,0 +1,4 @@
+main {
+	mut barb := [[1.5, 3.7, 4.2], [6, 7]];
+	print barb $n;
+}

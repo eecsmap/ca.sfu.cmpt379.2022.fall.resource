@@ -1,0 +1,4 @@
+main {
+    imm result := 50 * false;
+    print result $n;
+}

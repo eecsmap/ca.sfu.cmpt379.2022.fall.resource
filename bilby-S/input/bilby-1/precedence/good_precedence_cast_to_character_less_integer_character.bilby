@@ -1,0 +1,43 @@
+main {
+
+  print [ 86 as char ] < #E $n;
+  print [ 30 as char ] < #L $n;
+  print [ 87 as char ] < #I $n;
+  print [ 98 as char ] < #` $n;
+  print [ 25 as char ] < #x $n;
+  print [ 96 as char ] < #x $n;
+  print [ 16 as char ] < #D $n;
+  print [ 98 as char ] < #N $n;
+  print [ 1 as char ] < #Y $n;
+  print [ 20 as char ] < #E $n;
+  print [ 26 as char ] < #. $n;
+  print [ 31 as char ] < #C $n;
+
+  print #Y < [ 99 as char ] $n;
+  print #  < [ 28 as char ] $n;
+  print #v < [ 24 as char ] $n;
+  print #n < [ 40 as char ] $n;
+  print #m < [ 3 as char ] $n;
+  print #Z < [ 1 as char ] $n;
+  print #H < [ 78 as char ] $n;
+  print #v < [ 37 as char ] $n;
+  print #M < [ 59 as char ] $n;
+  print #w < [ 10 as char ] $n;
+  print #w < [ 22 as char ] $n;
+  print #> < [ 33 as char ] $n;
+
+  print [ 48 as char ] < [ 7 as char ] $n;
+  print [ 58 as char ] < [ 24 as char ] $n;
+  print [ 80 as char ] < [ 16 as char ] $n;
+  print [ 91 as char ] < [ 35 as char ] $n;
+  print [ 16 as char ] < [ 28 as char ] $n;
+  print [ 1 as char ] < [ 38 as char ] $n;
+  print [ 70 as char ] < [ 11 as char ] $n;
+  print [ 14 as char ] < [ 5 as char ] $n;
+  print [ 74 as char ] < [ 70 as char ] $n;
+  print [ 21 as char ] < [ 74 as char ] $n;
+  print [ 68 as char ] < [ 43 as char ] $n;
+  print [ 99 as char ] < [ 84 as char ] $n;
+
+}
+

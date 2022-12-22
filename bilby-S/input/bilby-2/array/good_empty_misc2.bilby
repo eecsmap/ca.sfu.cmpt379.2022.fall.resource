@@ -1,0 +1,6 @@
+main {
+	imm b := alloc[int](4)[1];
+	mut c := 4;
+	c := b;
+	print "ok" $n;
+}

@@ -1,0 +1,5 @@
+main {
+	mut farm := alloc[int](4);
+	farm := [3, 4, 5];
+	print "ok" $n;
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := [ #v as float ];
+    print result $n;
+}

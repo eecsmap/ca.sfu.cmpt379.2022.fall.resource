@@ -1,0 +1,11 @@
+main {
+    imm nickels := 11;
+    imm pennies := 5 + 41;
+    imm dimes := 4;
+    
+    imm value := dimes * 10 +
+    			 nickels * 5 +
+    			 pennies;
+    			 
+    print value $s$s value $s$n$n value $n nickels $ pennies $n;
+}

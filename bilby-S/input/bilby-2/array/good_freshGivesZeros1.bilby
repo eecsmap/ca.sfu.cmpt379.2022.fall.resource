@@ -1,0 +1,8 @@
+main {
+	imm DD := alloc [int](8);
+	mut i := 0;
+	while(i < length DD) {
+		print i $s DD[i] $n;
+		i := i + 1;
+	}
+}

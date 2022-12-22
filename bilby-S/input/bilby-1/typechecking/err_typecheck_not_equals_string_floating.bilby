@@ -1,0 +1,4 @@
+main {
+    imm result := "#z" != 7.6;
+    print result $n;
+}

@@ -1,0 +1,5 @@
+main {
+	imm aVariable := [2, 3, 5];
+	imm bVariable := [aVariable as [float]];
+	print bVariable $n;
+}

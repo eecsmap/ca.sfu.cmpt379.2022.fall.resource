@@ -1,0 +1,31 @@
+func void printTwoPlaces(int number) {
+	if(number < 10) {
+		print $s number;
+	}
+	else {
+		print number;
+	}
+	return;
+}
+
+func void printFiboLine(int i, int fiboNumber) {
+	call printTwoPlaces(i);
+	print $s fiboNumber $n;
+	return;
+}
+
+main {
+	imm max := 40;
+	mut prevFib := 0;
+	mut thisFib := 1;
+	
+	call printFiboLine(0, prevFib);
+	call printFiboLine(1, thisFib);
+	
+	for(n in <2..max>) {
+		imm prevHolder := thisFib;
+		thisFib := thisFib + prevFib;
+		prevFib := prevHolder;
+		call printFiboLine(n, thisFib);
+	}
+}

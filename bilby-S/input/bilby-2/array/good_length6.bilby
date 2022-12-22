@@ -1,0 +1,3 @@
+main {
+	print length  [14 + 21, 77] $n;
+}

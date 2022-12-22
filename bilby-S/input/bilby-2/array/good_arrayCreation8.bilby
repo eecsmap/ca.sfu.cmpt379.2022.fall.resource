@@ -1,0 +1,13 @@
+main {
+	imm AA := alloc[int](8);
+	AA[7] := 13;
+	print AA $n;
+	
+	imm BB := alloc[float](6);
+	BB[5] := 2.34;
+	print BB $n;
+	
+	imm CC := alloc[bool](4);
+	CC[3] := true;
+	print CC $n;
+}

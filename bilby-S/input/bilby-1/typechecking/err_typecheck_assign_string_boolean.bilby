@@ -1,0 +1,5 @@
+main {
+    mut result := "w;em";
+    result := false;
+    print result $n;
+}

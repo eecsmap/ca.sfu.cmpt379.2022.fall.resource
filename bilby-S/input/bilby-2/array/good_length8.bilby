@@ -1,0 +1,4 @@
+main {
+	imm gram := [[true, true, false], [true, false, true], [true, false, true, false]];
+	print length gram[2] $s 4 $n; 
+}

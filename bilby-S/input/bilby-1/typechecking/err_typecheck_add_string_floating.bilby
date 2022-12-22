@@ -1,0 +1,4 @@
+main {
+    imm result := "8yR<B`" + 8.9;
+    print result $n;
+}

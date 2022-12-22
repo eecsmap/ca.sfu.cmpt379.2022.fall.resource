@@ -1,0 +1,6 @@
+main {
+    imm result := [ #` as int ];
+    mut knownType := 44;
+    knownType := result;
+    print result $n;
+}

@@ -1,0 +1,43 @@
+main {
+
+  print [ 65 as char ] <= #' $n;
+  print [ 30 as char ] <= #G $n;
+  print [ 39 as char ] <= #Y $n;
+  print [ 32 as char ] <= #/ $n;
+  print [ 49 as char ] <= #t $n;
+  print [ 70 as char ] <= #E $n;
+  print [ 78 as char ] <= #f $n;
+  print [ 14 as char ] <= #K $n;
+  print [ 29 as char ] <= #` $n;
+  print [ 32 as char ] <= #R $n;
+  print [ 89 as char ] <= #_ $n;
+  print [ 45 as char ] <= #G $n;
+
+  print #b <= [ 22 as char ] $n;
+  print #P <= [ 60 as char ] $n;
+  print #< <= [ 93 as char ] $n;
+  print #- <= [ 79 as char ] $n;
+  print #[ <= [ 7 as char ] $n;
+  print #O <= [ 25 as char ] $n;
+  print #/ <= [ 36 as char ] $n;
+  print #A <= [ 80 as char ] $n;
+  print #! <= [ 30 as char ] $n;
+  print #U <= [ 30 as char ] $n;
+  print #: <= [ 87 as char ] $n;
+  print #W <= [ 65 as char ] $n;
+
+  print [ 38 as char ] <= [ 10 as char ] $n;
+  print [ 30 as char ] <= [ 76 as char ] $n;
+  print [ 66 as char ] <= [ 40 as char ] $n;
+  print [ 33 as char ] <= [ 61 as char ] $n;
+  print [ 25 as char ] <= [ 9 as char ] $n;
+  print [ 77 as char ] <= [ 17 as char ] $n;
+  print [ 61 as char ] <= [ 97 as char ] $n;
+  print [ 12 as char ] <= [ 81 as char ] $n;
+  print [ 51 as char ] <= [ 34 as char ] $n;
+  print [ 31 as char ] <= [ 93 as char ] $n;
+  print [ 63 as char ] <= [ 49 as char ] $n;
+  print [ 23 as char ] <= [ 88 as char ] $n;
+
+}
+

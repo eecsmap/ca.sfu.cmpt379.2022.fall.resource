@@ -1,0 +1,6 @@
+main {
+	while true  {
+		print "then" $n;
+	}
+	print "after" $n;
+}

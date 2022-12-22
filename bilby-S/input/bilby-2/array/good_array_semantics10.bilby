@@ -1,0 +1,6 @@
+main {
+	imm farm := [<#@..#A>, <#c..#z>, <#r..#v>];
+	imm cow := farm;
+	cow[2] := <#g..#i>;
+	print farm $s cow $n;
+}

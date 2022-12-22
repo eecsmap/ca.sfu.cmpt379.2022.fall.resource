@@ -1,0 +1,4 @@
+main {
+    imm result := "|S)" == #q;
+    print result $n;
+}

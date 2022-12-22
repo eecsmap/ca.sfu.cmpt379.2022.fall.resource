@@ -1,0 +1,4 @@
+main {
+    imm result := ">s//[*R" - "dmB=Vn";
+    print result $n;
+}

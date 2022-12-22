@@ -1,0 +1,4 @@
+main {
+    imm result := #S < "P3iRB";
+    print result $n;
+}

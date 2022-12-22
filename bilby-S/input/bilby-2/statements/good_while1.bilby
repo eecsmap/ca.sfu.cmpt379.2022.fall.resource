@@ -1,0 +1,8 @@
+main {
+	mut counter := 0;
+	while( counter < 5 ) {
+		print "then" $s;
+		counter := counter + 1;
+	}
+	print "after" $n;
+}

@@ -1,0 +1,5 @@
+main {
+    mut result := #x;
+    result := ">R>2-";
+    print result $n;
+}

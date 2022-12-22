@@ -1,0 +1,4 @@
+main {
+    imm result := [ 5.9 as bool ];
+    print result $n;
+}

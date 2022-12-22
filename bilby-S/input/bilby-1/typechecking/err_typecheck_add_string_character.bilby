@@ -1,0 +1,4 @@
+main {
+    imm result := "@k?+K+" + #&;
+    print result $n;
+}

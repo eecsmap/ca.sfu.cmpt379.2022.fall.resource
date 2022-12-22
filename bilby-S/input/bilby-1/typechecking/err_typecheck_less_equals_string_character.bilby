@@ -1,0 +1,4 @@
+main {
+    imm result := "Tu|d(lE" <= #%;
+    print result $n;
+}

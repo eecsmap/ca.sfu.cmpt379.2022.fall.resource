@@ -1,0 +1,4 @@
+main {
+    imm result := "Xa" / 4.4;
+    print result $n;
+}

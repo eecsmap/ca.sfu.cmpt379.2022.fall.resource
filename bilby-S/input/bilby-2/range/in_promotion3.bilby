@@ -1,0 +1,3 @@
+main {
+	print 14 in <2.8..20.0> $s true $n;
+}

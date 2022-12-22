@@ -1,0 +1,4 @@
+main {
+    imm result := "T.[.X" * 71;
+    print result $n;
+}

@@ -1,0 +1,7 @@
+main {
+	imm a := #x;
+	while (a) {
+		print "then" $n;
+	}
+	print "after" $n;
+}

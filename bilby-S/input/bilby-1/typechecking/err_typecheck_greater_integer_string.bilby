@@ -1,0 +1,4 @@
+main {
+    imm result := 41 > "@%g";
+    print result $n;
+}

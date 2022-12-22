@@ -1,0 +1,13 @@
+
+main {
+	imm min := 10;
+	imm max := 100;
+	
+	for (count in <#a..#f>) {
+		print count $s;
+		if(count == #e) {
+			break;
+		}
+	}
+	print "done." $n;
+}

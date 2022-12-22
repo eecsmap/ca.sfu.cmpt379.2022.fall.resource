@@ -1,0 +1,7 @@
+main {
+	for(i in <2..5>) {
+		mut i := 3;
+		print i*i $s;
+	}
+	print $n;
+}

@@ -1,0 +1,4 @@
+main {
+	imm farm := [true, false, true];
+	print farm[0] $s farm[1] $s farm[2] $n;
+}

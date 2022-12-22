@@ -1,0 +1,7 @@
+main {
+	imm abc := <#a..#c>;
+	for i in abc {
+		print i*i $s;
+	}
+	print $n;
+}

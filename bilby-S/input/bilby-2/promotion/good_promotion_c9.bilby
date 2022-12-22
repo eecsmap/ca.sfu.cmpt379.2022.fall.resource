@@ -1,0 +1,3 @@
+main {
+	print #i < 4.3 $s false $n;
+}

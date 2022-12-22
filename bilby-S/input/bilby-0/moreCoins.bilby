@@ -1,0 +1,19 @@
+main {
+    imm toonies := 2;
+    imm loonies := 3;
+    imm quarters := 5;
+    imm dimes := 3;
+    imm nickels := 7;
+    imm pennies := 17;
+    imm value := toonies * 200 + 
+    			   loonies * 100 +
+    			   quarters * 25 +
+    			   dimes * 10 +
+    			   nickels * 5 +
+    			   pennies;
+    print value $n;
+    
+    imm ncoins := toonies + loonies + quarters + dimes + nickels + pennies;
+	print ncoins $n;
+}
+

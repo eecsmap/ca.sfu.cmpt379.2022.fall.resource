@@ -1,0 +1,4 @@
+main {
+    imm result := [ "q=x" as int ];
+    print result $n;
+}

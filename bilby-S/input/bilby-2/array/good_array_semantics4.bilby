@@ -1,0 +1,8 @@
+main {
+	imm farm := [18, 71];
+	imm cow := [22, 44];
+	imm hay := [farm, cow];
+	print hay $n;
+	hay[0][1] := 70;
+	print hay $s farm $s cow $n;
+}

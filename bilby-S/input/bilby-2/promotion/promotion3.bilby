@@ -1,0 +1,5 @@
+main {
+	mut integer := 11;
+	integer := #b;
+	print integer $s 98 $n;
+}

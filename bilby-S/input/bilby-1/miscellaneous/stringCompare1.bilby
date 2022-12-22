@@ -1,0 +1,9 @@
+main {
+	imm v := "now";
+    imm w := "is the";
+    imm x := v;
+    imm y := "now";
+    
+    print v == w $s v == x $s v == y $n;
+    print v != w $s v != x $s v != y $n;
+}

@@ -1,0 +1,4 @@
+main {
+	print 28 % comment 
+		$n;
+}

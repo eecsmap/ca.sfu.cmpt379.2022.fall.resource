@@ -1,0 +1,10 @@
+main {
+    imm nickels := 11;
+    imm pennies := 5 + undefinedvariable;
+    
+    imm undefinedvariable := 
+    			 nickels * 5 +
+    			 pennies;
+    print undefinedvariable $n;
+
+}

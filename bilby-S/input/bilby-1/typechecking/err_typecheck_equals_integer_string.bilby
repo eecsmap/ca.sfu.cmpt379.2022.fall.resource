@@ -1,0 +1,4 @@
+main {
+    imm result := 47 == "\m";
+    print result $n;
+}

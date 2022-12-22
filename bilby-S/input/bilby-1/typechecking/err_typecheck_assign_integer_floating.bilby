@@ -1,0 +1,5 @@
+main {
+    mut result := 92;
+    result := 4.8;
+    print result $n;
+}

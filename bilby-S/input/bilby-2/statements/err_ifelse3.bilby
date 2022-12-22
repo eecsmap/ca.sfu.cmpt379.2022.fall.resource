@@ -1,0 +1,11 @@
+main {
+	imm a := 14.17;
+
+	if (a) {
+		print "then" $n;
+	}
+	else {
+		print "else" $n;
+	}
+	print "after" $n;
+}

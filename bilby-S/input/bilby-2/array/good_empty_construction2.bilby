@@ -1,0 +1,39 @@
+main {
+	imm size := 1000;
+	imm printEvery := 50;
+	imm arrays := alloc[[float]](size);
+	mut indx := 0;
+	while (indx < size) {
+		arrays[indx] := alloc[float](7);
+		indx := indx + 1;
+	}
+	indx := 0;
+	while (indx < size) {
+		arrays[indx][0] :=  0.01 + [indx as float];
+		arrays[indx][1] :=  0.20 + [indx as float];
+		arrays[indx][2] :=  3.00 + [indx as float];
+		arrays[indx][3] := 40.00 + [indx as float];
+		arrays[indx][4] := 5.0E2 + [indx as float];
+		arrays[indx][5] := 6.0E3 + [indx as float];
+		arrays[indx][6] := 7.0E4 + [indx as float];
+		indx := indx + 1;
+	}
+	indx := 0;
+	while (indx < size) {
+		imm elem1 := (( 0.01 + [indx as float]) == arrays[indx][0]);
+		imm elem2 := (( 0.20 + [indx as float]) == arrays[indx][1]);
+		imm elem3 := (( 3.00 + [indx as float]) == arrays[indx][2]);
+		imm elem4 := ((40.00 + [indx as float]) == arrays[indx][3]);
+		imm elem5 := ((5.0E2 + [indx as float]) == arrays[indx][4]);
+		imm elem6 := ((6.0E3 + [indx as float]) == arrays[indx][5]);
+		imm elem7 := ((7.0E4 + [indx as float]) == arrays[indx][6]);
+		imm good := elem1 && elem2 && elem3 && elem4 && elem5 && elem6 && elem7;
+		if(indx == printEvery * (indx / printEvery)) {
+			print indx $s good $n;
+		}
+		if(!good) {
+			print "bad! " $s indx $n;
+		}
+		indx := indx + 1;
+	}
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := "SSZn" > #y;
+    print result $n;
+}

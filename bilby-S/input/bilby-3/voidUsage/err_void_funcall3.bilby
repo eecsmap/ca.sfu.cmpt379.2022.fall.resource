@@ -1,0 +1,14 @@
+func int printXNum(int x) {
+	print ### $ 10;
+	return 5;
+}
+
+func void empty() {
+}
+
+main {
+	imm max := 77;
+	imm range := <empty()..empty()>;
+	call printXNum(max);
+}
+

@@ -1,0 +1,5 @@
+main {
+	mut integer := 11;
+	integer := true;
+	print integer $s true $n;
+}

@@ -1,0 +1,3 @@
+main {
+	print 410 / #g $s 3 $n;
+}

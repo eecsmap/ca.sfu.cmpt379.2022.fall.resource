@@ -1,0 +1,5 @@
+main {
+    mut result := "9Hp*";
+    result := "mQW";
+    print result $n;
+}

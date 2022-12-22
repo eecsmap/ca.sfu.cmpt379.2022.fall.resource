@@ -1,0 +1,6 @@
+main {
+	imm farm := [<1..8>, <20..30>];
+	imm cow := farm;
+	cow[1] := <5..10>;
+	print farm $s cow $n;
+}

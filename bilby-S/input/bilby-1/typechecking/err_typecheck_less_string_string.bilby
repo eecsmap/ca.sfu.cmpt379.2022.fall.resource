@@ -1,0 +1,4 @@
+main {
+    imm result := "EDS" < "By_?b";
+    print result $n;
+}

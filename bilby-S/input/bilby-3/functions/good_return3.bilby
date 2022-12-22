@@ -1,0 +1,22 @@
+func char holler(int number) {
+	print number $s isOdd(number) $s;
+	return [ number + #a - 1 as char ];
+}
+func bool isOdd(int number) {
+	return number != (number / 2) * 2;
+}
+
+main {
+	imm max := 6;
+	
+	mut count := 0;
+	while (count <= max) {
+		mut result := holler(count);
+		print result $n;
+		count := count + 1;
+	}
+	
+	print max*max $s isOdd(max*max) $n;
+	
+	print "all done." $n;
+}

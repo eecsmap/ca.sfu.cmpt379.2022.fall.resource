@@ -1,0 +1,4 @@
+main {
+    imm result := "WBNq" == 49;
+    print result $n;
+}

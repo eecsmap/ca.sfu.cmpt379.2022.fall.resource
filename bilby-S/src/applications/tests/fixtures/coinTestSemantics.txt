@@ -1,0 +1,67 @@
+ProgramNode (MAIN)  [scope:27 bytes] 
+    MainBlockNode (OPEN_BRACE)  
+        DeclarationNode (CONST) INTEGER 
+            IdentifierNode (identifier, quarters) INTEGER 
+            IntegerConstantNode (number, 6) INTEGER 
+        DeclarationNode (CONST) INTEGER 
+            IdentifierNode (identifier, dimes) INTEGER 
+            IntegerConstantNode (number, 3) INTEGER 
+        DeclarationNode (CONST) INTEGER 
+            IdentifierNode (identifier, nickels) INTEGER 
+            IntegerConstantNode (number, 7) INTEGER 
+        DeclarationNode (CONST) INTEGER 
+            IdentifierNode (identifier, pennies) INTEGER 
+            IntegerConstantNode (number, 17) INTEGER 
+        DeclarationNode (CONST) INTEGER 
+            IdentifierNode (identifier, value) INTEGER 
+            BinaryOperatorNode (ADD) INTEGER 
+                BinaryOperatorNode (ADD) INTEGER 
+                    BinaryOperatorNode (ADD) INTEGER 
+                        BinaryOperatorNode (MULTIPLY) INTEGER 
+                            IdentifierNode (identifier, quarters) INTEGER 
+                            IntegerConstantNode (number, 25) INTEGER 
+                        BinaryOperatorNode (MULTIPLY) INTEGER 
+                            IdentifierNode (identifier, dimes) INTEGER 
+                            IntegerConstantNode (number, 10) INTEGER 
+                    BinaryOperatorNode (MULTIPLY) INTEGER 
+                        IdentifierNode (identifier, nickels) INTEGER 
+                        IntegerConstantNode (number, 5) INTEGER 
+                IdentifierNode (identifier, pennies) INTEGER 
+        PrintStatementNode (PRINT)  
+            IdentifierNode (identifier, value) INTEGER 
+            NewlineNode (NEWLINE)  
+        DeclarationNode (CONST) INTEGER 
+            IdentifierNode (identifier, ncoins) INTEGER 
+            BinaryOperatorNode (ADD) INTEGER 
+                BinaryOperatorNode (ADD) INTEGER 
+                    BinaryOperatorNode (ADD) INTEGER 
+                        IdentifierNode (identifier, quarters) INTEGER 
+                        IdentifierNode (identifier, dimes) INTEGER 
+                    IdentifierNode (identifier, nickels) INTEGER 
+                IdentifierNode (identifier, pennies) INTEGER 
+        PrintStatementNode (PRINT)  
+            IdentifierNode (identifier, ncoins) INTEGER 
+            NewlineNode (NEWLINE)  
+        DeclarationNode (CONST) BOOLEAN 
+            IdentifierNode (identifier, moredimes) BOOLEAN 
+            BinaryOperatorNode (GREATER) BOOLEAN 
+                IdentifierNode (identifier, dimes) INTEGER 
+                IdentifierNode (identifier, nickels) INTEGER 
+        PrintStatementNode (PRINT)  
+            IdentifierNode (identifier, moredimes) BOOLEAN 
+            NewlineNode (NEWLINE)  
+        DeclarationNode (CONST) BOOLEAN 
+            IdentifierNode (identifier, boot) BOOLEAN 
+            BooleanConstantNode (TRUE) BOOLEAN 
+        DeclarationNode (CONST) BOOLEAN 
+            IdentifierNode (identifier, boof) BOOLEAN 
+            BooleanConstantNode (FALSE) BOOLEAN 
+        PrintStatementNode (PRINT)  
+            IdentifierNode (identifier, boot) BOOLEAN 
+            SpaceNode (SPACE)  
+            IdentifierNode (identifier, boof) BOOLEAN 
+            NewlineNode (NEWLINE)  
+        PrintStatementNode (PRINT)  
+            IdentifierNode (identifier, boot) BOOLEAN 
+            IdentifierNode (identifier, boof) BOOLEAN 
+            NewlineNode (NEWLINE)  

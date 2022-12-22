@@ -1,0 +1,5 @@
+main {
+    mut result := "AaAQDk";
+    result := #<;
+    print result $n;
+}

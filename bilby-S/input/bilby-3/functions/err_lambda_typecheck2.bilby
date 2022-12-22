@@ -1,0 +1,34 @@
+
+func [float] apply([int] a){
+	imm result := alloc [float](length a);
+	
+	mut i := 0;
+	while (i < length a) {
+		result[i] := pax(a[i]);
+		i := i + 1;
+	}
+	return result;
+}
+
+func int pax(int b) {
+	if (b < 4) {
+	    return b;
+	}
+	return b - b / 3 ;
+}
+
+main {
+	imm max := 5;
+	
+	if(max > 3) {
+		print pax $n;
+	}
+	
+	mut AA := [1, 3, 5, 7, 11];
+	print AA $n;
+	call apply(AA);	
+	mut count := 0;
+	print pax(1234) $n;
+	
+	print "all done." $n;
+}

@@ -1,0 +1,8 @@
+main {
+	mut i := [1, 2, 3];
+	print i $n;
+	imm j := i;
+	i := [2, 0, 2];
+	j[1] := 9;
+	print i $s j $n;
+}

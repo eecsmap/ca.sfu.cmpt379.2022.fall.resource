@@ -1,0 +1,10 @@
+func void printXNum(int x, void number) {
+	print ### $ x;
+	return;
+}
+
+main {
+	imm max := 77;
+	call printXNum(max, max);
+}
+

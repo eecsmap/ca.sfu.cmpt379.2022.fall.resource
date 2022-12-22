@@ -1,0 +1,12 @@
+main {
+	imm min := 90;
+	imm max := 100;
+	
+	mut count := min;
+	while (count < max) {
+		print count $s;
+		count := count + 1;
+	}
+	break;
+	print "done." $n;
+}

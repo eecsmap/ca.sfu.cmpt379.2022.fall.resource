@@ -1,0 +1,43 @@
+main {
+
+  print [ #V as int ] / 96 $n;
+  print [ #s as int ] / 16 $n;
+  print [ #= as int ] / 64 $n;
+  print [ #S as int ] / 66 $n;
+  print [ #[ as int ] / 19 $n;
+  print [ #G as int ] / 52 $n;
+  print [ #+ as int ] / 55 $n;
+  print [ #$ as int ] / 74 $n;
+  print [ #f as int ] / 1 $n;
+  print [ #u as int ] / 51 $n;
+  print [ #L as int ] / 19 $n;
+  print [ #D as int ] / 42 $n;
+
+  print 59 / [ #\ as int ] $n;
+  print 18 / [ #  as int ] $n;
+  print 42 / [ #L as int ] $n;
+  print 55 / [ #B as int ] $n;
+  print 75 / [ #} as int ] $n;
+  print 79 / [ #a as int ] $n;
+  print 51 / [ #g as int ] $n;
+  print 12 / [ #> as int ] $n;
+  print 87 / [ #) as int ] $n;
+  print 69 / [ #d as int ] $n;
+  print 17 / [ #u as int ] $n;
+  print 35 / [ #\ as int ] $n;
+
+  print [ #k as int ] / [ #g as int ] $n;
+  print [ #) as int ] / [ #g as int ] $n;
+  print [ #j as int ] / [ #W as int ] $n;
+  print [ #a as int ] / [ #/ as int ] $n;
+  print [ #E as int ] / [ #P as int ] $n;
+  print [ #e as int ] / [ #u as int ] $n;
+  print [ #I as int ] / [ #O as int ] $n;
+  print [ #] as int ] / [ #f as int ] $n;
+  print [ #I as int ] / [ #H as int ] $n;
+  print [ #< as int ] / [ #[ as int ] $n;
+  print [ #m as int ] / [ #" as int ] $n;
+  print [ #= as int ] / [ #S as int ] $n;
+
+}
+

@@ -1,0 +1,43 @@
+main {
+
+  print [ #B as bool ] != true $n;
+  print [ #s as bool ] != true $n;
+  print [ #w as bool ] != true $n;
+  print [ #U as bool ] != false $n;
+  print [ #g as bool ] != true $n;
+  print [ #u as bool ] != true $n;
+  print [ #N as bool ] != false $n;
+  print [ #B as bool ] != false $n;
+  print [ #T as bool ] != false $n;
+  print [ #M as bool ] != false $n;
+  print [ #{ as bool ] != false $n;
+  print [ #o as bool ] != false $n;
+
+  print true != [ #y as bool ] $n;
+  print true != [ #K as bool ] $n;
+  print true != [ #I as bool ] $n;
+  print true != [ #( as bool ] $n;
+  print false != [ #m as bool ] $n;
+  print true != [ #] as bool ] $n;
+  print false != [ #} as bool ] $n;
+  print false != [ #Z as bool ] $n;
+  print true != [ #Q as bool ] $n;
+  print false != [ #( as bool ] $n;
+  print false != [ #^ as bool ] $n;
+  print false != [ #Y as bool ] $n;
+
+  print [ #Q as bool ] != [ #R as bool ] $n;
+  print [ #d as bool ] != [ #x as bool ] $n;
+  print [ #h as bool ] != [ #} as bool ] $n;
+  print [ #n as bool ] != [ #T as bool ] $n;
+  print [ #[ as bool ] != [ #% as bool ] $n;
+  print [ #[ as bool ] != [ #v as bool ] $n;
+  print [ #u as bool ] != [ #K as bool ] $n;
+  print [ #' as bool ] != [ #Z as bool ] $n;
+  print [ #& as bool ] != [ #H as bool ] $n;
+  print [ #g as bool ] != [ #E as bool ] $n;
+  print [ #d as bool ] != [ #h as bool ] $n;
+  print [ #l as bool ] != [ #E as bool ] $n;
+
+}
+

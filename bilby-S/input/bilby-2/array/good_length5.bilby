@@ -1,0 +1,3 @@
+main {
+	print length alloc[bool](20) $n;
+}

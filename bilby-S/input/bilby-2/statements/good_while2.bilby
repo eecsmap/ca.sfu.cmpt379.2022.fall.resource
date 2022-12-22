@@ -1,0 +1,7 @@
+main {
+	while( false ) {
+		print "then" $n;
+	}
+	print "after" $n;
+}
+

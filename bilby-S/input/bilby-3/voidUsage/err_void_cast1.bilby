@@ -1,0 +1,11 @@
+func void printXNum(int x) {
+	print # $ 10;
+	imm voo := [10 as void];
+	return;
+}
+
+main {
+	imm max := 77;
+	call printXNum(max);
+}
+

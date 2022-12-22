@@ -1,0 +1,22 @@
+func int pax(int a, int b) {
+	if (a < b) {
+	    return a;
+	}
+	return b + pax(a, 3*b);
+}
+
+main {
+	imm max := 5;
+	
+	if(max > 3) {
+		imm pax := pax(88, 2);
+		imm twopax := 2 * pax(176, 2);
+		print pax $s twopax $n;
+		
+	}
+	
+	mut count := 0;
+	print pax(1234, 4) $n;
+	
+	print "all done." $n;
+}

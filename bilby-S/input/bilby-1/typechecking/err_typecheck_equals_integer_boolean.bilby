@@ -1,0 +1,4 @@
+main {
+    imm result := 38 == false;
+    print result $n;
+}

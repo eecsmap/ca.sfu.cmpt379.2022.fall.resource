@@ -1,0 +1,5 @@
+main {
+	mut s := "howdy";
+	s := #(;
+	print s $s #( $n;
+}

@@ -1,0 +1,5 @@
+main {
+	mut farm := alloc[bool](4);
+	farm := [true, false];
+	print "ok" $n;
+}

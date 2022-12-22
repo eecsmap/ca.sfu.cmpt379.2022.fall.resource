@@ -1,0 +1,4 @@
+main {
+    imm result := #D / 9.2;
+    print result $n;
+}

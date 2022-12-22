@@ -1,0 +1,3 @@
+main {
+	print #a in <#b..#f> $s false $n;
+}

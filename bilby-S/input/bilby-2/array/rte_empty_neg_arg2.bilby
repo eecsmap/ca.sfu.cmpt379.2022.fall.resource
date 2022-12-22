@@ -1,0 +1,5 @@
+main {
+	imm x := 3 - 88;
+	mut barb := alloc[int](x);
+	print barb $n;
+}

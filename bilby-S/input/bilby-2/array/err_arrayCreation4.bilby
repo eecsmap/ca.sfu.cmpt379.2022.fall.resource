@@ -1,0 +1,7 @@
+main {
+	mut x := 14;
+	x := x - 15;
+	imm AA := alloc(int)(x);
+	
+	print AA $n;
+}

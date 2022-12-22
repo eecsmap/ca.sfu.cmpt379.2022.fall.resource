@@ -1,0 +1,8 @@
+main {
+	imm farm := alloc[int](2);
+	farm[0] := 40;
+	farm[1] := 41;
+	print farm $n;
+	farm := [1, 2];
+	print farm $n;
+}

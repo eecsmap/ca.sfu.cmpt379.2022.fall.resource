@@ -1,0 +1,20 @@
+main {
+	imm min := 10;
+	imm max := 100;
+	
+	mut count := min;
+	while (count < max) {
+		print count $s;
+		count := count + 1;
+		if(count == 13) {
+			mut x := 2;
+			if(x > 1) {
+				mut y := 41 - x;
+				if(y < 100) {
+					break;
+				}
+			}
+		}
+	}
+	print "done." $n;
+}

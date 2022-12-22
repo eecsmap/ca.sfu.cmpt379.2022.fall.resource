@@ -1,0 +1,6 @@
+main {
+	mut farm := [18, 71, 14];
+	print 18 == farm[0] $n;
+	print 71 == farm[1] $n;
+	print 14 == farm[2] $n;
+}

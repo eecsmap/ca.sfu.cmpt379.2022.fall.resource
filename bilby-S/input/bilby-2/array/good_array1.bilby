@@ -1,0 +1,17 @@
+main {
+	imm AA := [#a, #b, #c, #d, #e];
+	imm BB := [10.2, 7.3, 6.4];
+	imm CC := [[1, 2, 3], [4, 5], [6]];
+	imm DD := alloc [float](12);
+	
+	AA[0] := #z;
+	BB[1] := 20.4;
+	CC[2] := [7, 8, 9];
+	DD[0] := 1.111;
+	DD[11] := 9.999;
+	
+	print AA $n;
+	print BB $n;
+	print CC $n;
+	print DD $n;
+}

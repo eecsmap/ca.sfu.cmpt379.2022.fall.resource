@@ -1,0 +1,5 @@
+main {
+	mut s := "flag";
+	s := 3.24;
+	print s $s 3.24 $n;
+}

@@ -1,0 +1,4 @@
+main {
+    imm result := #( / 57;
+    print result $n;
+}

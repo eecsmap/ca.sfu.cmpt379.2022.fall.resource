@@ -1,0 +1,4 @@
+main {
+    imm result := "xm2?" + 84;
+    print result $n;
+}

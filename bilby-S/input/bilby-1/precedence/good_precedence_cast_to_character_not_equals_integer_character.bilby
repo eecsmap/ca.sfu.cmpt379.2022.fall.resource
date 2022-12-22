@@ -1,0 +1,43 @@
+main {
+
+  print [ 49 as char ] != #R $n;
+  print [ 17 as char ] != #T $n;
+  print [ 69 as char ] != #c $n;
+  print [ 23 as char ] != #= $n;
+  print [ 20 as char ] != #Q $n;
+  print [ 17 as char ] != #X $n;
+  print [ 60 as char ] != #} $n;
+  print [ 67 as char ] != #r $n;
+  print [ 27 as char ] != #d $n;
+  print [ 34 as char ] != #_ $n;
+  print [ 28 as char ] != #K $n;
+  print [ 75 as char ] != #] $n;
+
+  print #v != [ 15 as char ] $n;
+  print #W != [ 35 as char ] $n;
+  print #{ != [ 62 as char ] $n;
+  print #< != [ 50 as char ] $n;
+  print #T != [ 62 as char ] $n;
+  print #+ != [ 2 as char ] $n;
+  print #J != [ 91 as char ] $n;
+  print #b != [ 14 as char ] $n;
+  print #v != [ 62 as char ] $n;
+  print #y != [ 28 as char ] $n;
+  print #J != [ 10 as char ] $n;
+  print #g != [ 60 as char ] $n;
+
+  print [ 53 as char ] != [ 12 as char ] $n;
+  print [ 19 as char ] != [ 99 as char ] $n;
+  print [ 2 as char ] != [ 25 as char ] $n;
+  print [ 11 as char ] != [ 93 as char ] $n;
+  print [ 57 as char ] != [ 36 as char ] $n;
+  print [ 92 as char ] != [ 76 as char ] $n;
+  print [ 76 as char ] != [ 81 as char ] $n;
+  print [ 28 as char ] != [ 43 as char ] $n;
+  print [ 8 as char ] != [ 73 as char ] $n;
+  print [ 1 as char ] != [ 10 as char ] $n;
+  print [ 65 as char ] != [ 22 as char ] $n;
+  print [ 47 as char ] != [ 9 as char ] $n;
+
+}
+

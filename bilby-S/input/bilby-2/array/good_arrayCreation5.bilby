@@ -1,0 +1,5 @@
+main {
+	imm AA := [#a, 14, #c, 3.14, #e];
+	
+	print AA $n;
+}

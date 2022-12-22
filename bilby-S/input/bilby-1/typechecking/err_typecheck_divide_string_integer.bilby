@@ -1,0 +1,4 @@
+main {
+    imm result := "hbuo<" / 71;
+    print result $n;
+}

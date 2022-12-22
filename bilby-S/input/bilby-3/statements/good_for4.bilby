@@ -1,0 +1,8 @@
+main {
+	for(i in <#a..#e>) {
+		for(j in <#G..#M>) {
+			print i $ j $s;
+		}
+		print $n;
+	}
+}

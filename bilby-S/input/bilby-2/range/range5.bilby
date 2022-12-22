@@ -1,0 +1,4 @@
+main {
+	imm r := <6..14>;
+	print r $n;
+}

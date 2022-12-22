@@ -1,0 +1,12 @@
+main {
+	imm AA := [[1, 2, 3], [4, 5], [6]];
+	imm BB := [[3.4, 10.2], [7.3, 6.66], [6.4]];
+	
+	print AA[0] $n;
+	print AA[1] $n; 
+	print AA[2] $n$n;
+	
+	print BB[0] $n;
+	print BB[1] $n; 
+	print BB[2] $n $n;
+}

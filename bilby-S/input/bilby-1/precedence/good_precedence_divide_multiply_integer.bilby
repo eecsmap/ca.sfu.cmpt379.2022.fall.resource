@@ -1,0 +1,56 @@
+main {
+
+  print 41 / 32 * 35 $n;
+  print 22 / 78 * 74 $n;
+  print 90 / 93 * 72 $n;
+  print 98 / 89 * 8 $n;
+  print 89 / 46 * 76 $n;
+  print 26 / 85 * 10 $n;
+  print 34 / 37 * 47 $n;
+  print 25 / 24 * 90 $n;
+  print 17 / 18 * 49 $n;
+  print 16 / 71 * 24 $n;
+  print 52 / 2 * 5 $n;
+  print 71 / 55 * 19 $n;
+
+  print 92 * 55 / 80 $n;
+  print 88 * 5 / 57 $n;
+  print 25 * 28 / 17 $n;
+  print 63 * 96 / 95 $n;
+  print 20 * 44 / 18 $n;
+  print 94 * 63 / 54 $n;
+  print 33 * 64 / 42 $n;
+  print 37 * 76 / 48 $n;
+  print 42 * 8 / 24 $n;
+  print 46 * 16 / 60 $n;
+  print 86 * 33 / 54 $n;
+  print 66 * 59 / 53 $n;
+
+  print 25 / 35 * 55 / 43 $n;
+  print 14 / 25 * 78 / 79 $n;
+  print 70 / 34 * 82 / 41 $n;
+  print 97 / 92 * 18 / 14 $n;
+  print 8 / 69 * 86 / 63 $n;
+  print 80 / 78 * 40 / 28 $n;
+  print 51 / 82 * 80 / 95 $n;
+  print 19 / 99 * 2 / 80 $n;
+  print 21 / 4 * 30 / 3 $n;
+  print 62 / 50 * 99 / 73 $n;
+  print 90 / 62 * 52 / 36 $n;
+  print 58 / 13 * 29 / 85 $n;
+
+  print 78 * 60 / 23 * 8 $n;
+  print 26 * 81 / 69 * 92 $n;
+  print 90 * 12 / 86 * 83 $n;
+  print 11 * 86 / 97 * 77 $n;
+  print 17 * 51 / 10 * 50 $n;
+  print 52 * 65 / 70 * 45 $n;
+  print 60 * 38 / 85 * 31 $n;
+  print 22 * 19 / 58 * 68 $n;
+  print 90 * 87 / 56 * 31 $n;
+  print 90 * 74 / 5 * 30 $n;
+  print 17 * 32 / 97 * 47 $n;
+  print 65 * 24 / 13 * 82 $n;
+
+}
+

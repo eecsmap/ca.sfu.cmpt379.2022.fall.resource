@@ -1,0 +1,22 @@
+func void holler(bool truth)  {
+	mut n := 0;
+	imm number := 2;
+	print truth $n;
+	if(truth) {
+		while (n < number) {
+			print "Yoo hoo!!!!" $n;
+			n := n + 1;
+		}
+	}
+	return;
+}
+
+main {
+	imm max := 6;
+	call holler(true);
+	
+	mut n := 0.34;
+	call holler(false);
+	
+	print "all done." $n;
+}

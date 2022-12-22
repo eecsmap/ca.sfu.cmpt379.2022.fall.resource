@@ -1,0 +1,4 @@
+main {
+    imm result := true + 4.7;
+    print result $n;
+}

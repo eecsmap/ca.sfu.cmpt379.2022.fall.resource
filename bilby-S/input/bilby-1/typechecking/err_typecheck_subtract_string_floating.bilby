@@ -1,0 +1,4 @@
+main {
+    imm result := "!v3r" - 7.2;
+    print result $n;
+}

@@ -1,0 +1,9 @@
+func void printNum(int number) {
+	print $s number $n;
+	return;
+}
+
+main {
+	imm max := 40;
+	call printNum(max);
+}

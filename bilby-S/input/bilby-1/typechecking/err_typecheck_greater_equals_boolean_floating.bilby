@@ -1,0 +1,4 @@
+main {
+    imm result := false >= 5.8;
+    print result $n;
+}

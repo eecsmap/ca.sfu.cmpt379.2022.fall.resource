@@ -1,0 +1,5 @@
+main {
+    mut result := #P;
+    result := #%;
+    print result $n;
+}

@@ -1,0 +1,10 @@
+main {
+	imm farm := [18, 71];
+	mut cow := farm; 
+	cow[0] := 1;
+	print farm $s cow $n;
+	imm horse := [29, 36];
+	cow := horse;
+	cow[1] := -25;
+	print farm $s cow $s horse $n;
+}

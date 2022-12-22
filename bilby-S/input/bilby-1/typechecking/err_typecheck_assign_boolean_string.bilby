@@ -1,0 +1,5 @@
+main {
+    mut result := true;
+    result := "j6^|n";
+    print result $n;
+}

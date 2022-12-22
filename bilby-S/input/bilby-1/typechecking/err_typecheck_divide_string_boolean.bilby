@@ -1,0 +1,4 @@
+main {
+    imm result := "sb&3!" / true;
+    print result $n;
+}

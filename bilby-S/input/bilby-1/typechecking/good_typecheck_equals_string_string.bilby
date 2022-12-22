@@ -1,0 +1,6 @@
+main {
+    imm result := "rV65C" == "OCd";
+    mut knownType := true;
+    knownType := result;
+    print result $n;
+}

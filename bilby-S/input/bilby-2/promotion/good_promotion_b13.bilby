@@ -1,0 +1,3 @@
+main {
+	print 104 >= #m $s false $n;
+}

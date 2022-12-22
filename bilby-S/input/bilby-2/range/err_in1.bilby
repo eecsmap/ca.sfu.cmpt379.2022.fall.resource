@@ -1,0 +1,3 @@
+main {
+	print true in <28.7..80.9> $s false $n;
+}

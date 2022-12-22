@@ -1,0 +1,3 @@
+main {
+	print 107.00 == #k $s true $n;
+}

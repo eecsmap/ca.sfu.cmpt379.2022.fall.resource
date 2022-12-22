@@ -1,0 +1,4 @@
+main {
+    imm result := "4j" < 6.6;
+    print result $n;
+}

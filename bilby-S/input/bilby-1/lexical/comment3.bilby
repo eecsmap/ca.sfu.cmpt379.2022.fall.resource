@@ -1,0 +1,5 @@
+% comment lines before main
+% more than one of them
+main {
+	print 56 $n;
+}

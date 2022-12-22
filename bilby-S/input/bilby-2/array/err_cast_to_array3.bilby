@@ -1,0 +1,5 @@
+main {
+	imm aVariable := 7.3E-02;
+	imm bVariable := [aVariable as [float]];
+	print bVariable $n;
+}

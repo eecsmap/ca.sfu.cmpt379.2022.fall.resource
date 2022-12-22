@@ -1,0 +1,11 @@
+main {
+	imm min := 90;
+	imm max := 100;
+	continue;
+	
+	mut count := min;
+	while (count < max) {
+		count := count + 1;
+	}
+	print "done." $n;
+}
