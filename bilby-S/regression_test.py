@@ -18,6 +18,7 @@ def get_tests(*test_group_names):
                     tests.append(
                         os.path.relpath(os.path.join(root, file), TEST_DATA_ROOT_PATH)
                         )
+    tests.sort()
     return tests
 
 def run_compiler(src_file_path):

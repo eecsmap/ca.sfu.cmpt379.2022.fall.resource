@@ -4,7 +4,9 @@
 3. install visual code
 4. open bilby-S folder in visual code
 5. install visual code extension for java
-6. pytest -vv
+6. pytest -vv -x
+7. implement features to fix the failures
+8. go back to step 6 until all tests pass!
 
 ## tips
 1. you can create debug profile to launch compiler on bilby program
