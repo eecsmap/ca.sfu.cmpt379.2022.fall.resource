@@ -15,7 +15,7 @@ import tokens.Token;
 
 import static lexicalAnalyzer.PunctuatorScanningAids.*;
 
-public class LexicalAnalyzer extends ScannerImp implements Scanner {
+public class LexicalAnalyzer extends ScannerImp {
 	public static LexicalAnalyzer make(String filename) {
 		InputHandler handler = InputHandler.fromFilename(filename);
 		PushbackCharStream charStream = PushbackCharStream.make(handler);
