@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "compile/run",
+            "configurations": ["compile", "_run"]
+        }
+    ],
+    "configurations": [
+        {
+            "name": "compile",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "applications.BilbyCompiler",
+            "projectName": "bilby-S",
+            "args": ["${file}"]
+        },
+        {
+            "name": "emulate",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/emulator.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["${file}"]
+        },
+        {
+            "name": "_run",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/emulator.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["${workspaceFolder}/output/${fileBasenameNoExtension}.asm"]
+        }
+    ]
+}
