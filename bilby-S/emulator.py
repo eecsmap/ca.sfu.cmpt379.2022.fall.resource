@@ -155,7 +155,7 @@ class Emulator:
             return
 
         self.halted = False
-        while not self.halted:
+        while not self.halted and 0 <= self.pc < len(self.instructions):
             line_number, instruction = self.instructions[self.pc]
             try:
                 self.execute_instruction(instruction)
