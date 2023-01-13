@@ -5,32 +5,32 @@ import tokens.NullToken;
 import tokens.Token;
 
 public abstract class ScannerImp implements Scanner {
-	private Token nextToken;
-	protected final PushbackCharStream input;
-	
-	protected abstract Token findNextToken();
+    private Token nextToken;
+    protected final PushbackCharStream input;
 
-	public ScannerImp(PushbackCharStream input) {
-		super();
-		this.input = input;
-		nextToken = findNextToken();
-	}
+    protected abstract Token findNextToken();
 
-	// Iterator<Token> implementation
-	@Override
-	public boolean hasNext() {
-		return !(nextToken instanceof NullToken);
-	}
+    public ScannerImp(PushbackCharStream input) {
+        super();
+        this.input = input;
+        nextToken = findNextToken();
+    }
 
-	@Override
-	public Token next() {
-		Token result = nextToken;
-		nextToken = findNextToken();
-		return result;
-	}
+    // Iterator<Token> implementation
+    @Override
+    public boolean hasNext() {
+        return !(nextToken instanceof NullToken);
+    }
 
-	@Override
-	public void remove() {
-		throw new UnsupportedOperationException();
-	}
+    @Override
+    public Token next() {
+        Token result = nextToken;
+        nextToken = findNextToken();
+        return result;
+    }
+
+    @Override
+    public void remove() {
+        throw new UnsupportedOperationException();
+    }
 }

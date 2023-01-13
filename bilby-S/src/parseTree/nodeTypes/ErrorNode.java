@@ -6,18 +6,18 @@ import tokens.Token;
 
 public class ErrorNode extends ParseNode {
 
-	public ErrorNode(ParseNode node) {
-		super(node);
-	}
-	public ErrorNode(Token token) {
-		super(token);
-	}
-	
-	
-	///////////////////////////////////////////////////////////
-	// boilerplate for visitors
-			
-	public void accept(ParseNodeVisitor visitor) {
-		visitor.visit(this);
-	}
+    public ErrorNode(ParseNode node) {
+        super(node);
+    }
+
+    public ErrorNode(Token token) {
+        super(token);
+    }
+
+    ///////////////////////////////////////////////////////////
+    // boilerplate for visitors
+
+    public void accept(ParseNodeVisitor visitor) {
+        visitor.visit(this);
+    }
 }

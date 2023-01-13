@@ -7,30 +7,31 @@ import tokens.LextantToken;
 import tokens.Token;
 
 public class BooleanConstantNode extends ParseNode {
-	public BooleanConstantNode(Token token) {
-		super(token);
-		assert(token.isLextant(Keyword.TRUE, Keyword.FALSE));
-	}
-	public BooleanConstantNode(ParseNode node) {
-		super(node);
-	}
+    public BooleanConstantNode(Token token) {
+        super(token);
+        assert (token.isLextant(Keyword.TRUE, Keyword.FALSE));
+    }
 
-////////////////////////////////////////////////////////////
-// attributes
-	
-	public boolean getValue() {
-		return token.isLextant(Keyword.TRUE);
-	}
+    public BooleanConstantNode(ParseNode node) {
+        super(node);
+    }
 
-	public LextantToken lextantToken() {
-		return (LextantToken)token;
-	}	
+    ////////////////////////////////////////////////////////////
+    // attributes
 
-///////////////////////////////////////////////////////////
-// accept a visitor
-	
-	public void accept(ParseNodeVisitor visitor) {
-		visitor.visit(this);
-	}
+    public boolean getValue() {
+        return token.isLextant(Keyword.TRUE);
+    }
+
+    public LextantToken lextantToken() {
+        return (LextantToken) token;
+    }
+
+    ///////////////////////////////////////////////////////////
+    // accept a visitor
+
+    public void accept(ParseNodeVisitor visitor) {
+        visitor.visit(this);
+    }
 
 }
