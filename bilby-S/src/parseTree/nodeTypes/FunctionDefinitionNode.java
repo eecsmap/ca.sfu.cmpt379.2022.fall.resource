@@ -20,17 +20,14 @@ public class FunctionDefinitionNode extends ParseNode {
         visitor.visitLeave(this);
     }
 
-    public static ParseNode withChildren(Token token,
-                                 ParseNode type,
-                                 ParseNode identifier,
-                                 ParseNode parameterList,
-                                 ParseNode blockStatement) {
+    public static ParseNode withChildren(Token token, ParseNode type, ParseNode identifier, ParseNode parameterList,
+            ParseNode blockStatement) {
         FunctionDefinitionNode node = new FunctionDefinitionNode(token);
         node.appendChild(type);
         node.appendChild(identifier);
         node.appendChild(parameterList);
         node.appendChild(blockStatement);
-        node.name = ((IdentifierNode)identifier).getToken().getLexeme();
+        node.name = ((IdentifierNode) identifier).getToken().getLexeme();
         return node;
     }
 

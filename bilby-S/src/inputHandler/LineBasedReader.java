@@ -8,70 +8,69 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Iterator;
 
-
-/** Simple line-based file reader.
- *  The lines returned DO NOT include the line terminator.
+/**
+ * Simple line-based file reader. The lines returned DO NOT include the line
+ * terminator.
+ * 
  * @author shermer
- *
  */
-public class LineBasedReader implements Iterator<String>  {
-	private BufferedReader reader;
-	private String nextLine = null;
+public class LineBasedReader implements Iterator<String> {
+    private BufferedReader reader;
+    private String nextLine = null;
 
-	public LineBasedReader(String filename) {
-		try {
-			this.reader = openFile(filename);
-		}
-		catch (FileNotFoundException e) {
-			throw new IllegalArgumentException(e);
-		}
-		preloadNextLine();
-	}
-	
-//////////////////////////////////////////////////////////////////////////////
-// interface: just an iterator
+    public LineBasedReader(String filename) {
+        try {
+            this.reader = openFile(filename);
+        } catch (FileNotFoundException e) {
+            throw new IllegalArgumentException(e);
+        }
+        preloadNextLine();
+    }
 
-	@Override
-	public boolean hasNext() {
-		return nextLine != null;
-	}
+    //////////////////////////////////////////////////////////////////////////////
+    // interface: just an iterator
 
-	@Override
-	public String next() {
-		String result = nextLine;
-		preloadNextLine();
-		return result;
-	}
+    @Override
+    public boolean hasNext() {
+        return nextLine != null;
+    }
 
-	/**
-	 * remove is an unsupported operation.  It throws an UnsupportedOperationException.
-	 */
-	@Override
-	public void remove() {
-		throw new UnsupportedOperationException();
-	}
+    @Override
+    public String next() {
+        String result = nextLine;
+        preloadNextLine();
+        return result;
+    }
 
-	
-//////////////////////////////////////////////////////////////////////////////
-// private parts
+    /**
+     * remove is an unsupported operation. It throws an
+     * UnsupportedOperationException.
+     */
+    @Override
+    public void remove() {
+        throw new UnsupportedOperationException();
+    }
 
-	private BufferedReader openFile(String filename)
-			throws FileNotFoundException {
-		File file = new File(filename);
-		FileInputStream fstream = new FileInputStream(file);
-		InputStreamReader isr = new InputStreamReader(fstream);
-		return new BufferedReader(isr);
-	}
-	
-	private void preloadNextLine() {
-		nextLine  = readOneLine();
-	}
-	private String readOneLine() {
-		try {
-			return reader.readLine();
-		} catch (IOException e) {
-			System.err.println("Input file read error.");
-			return null;
-		}
-	}
+    //////////////////////////////////////////////////////////////////////////////
+    // private parts
+
+    private BufferedReader openFile(String filename) throws FileNotFoundException {
+        File file = new File(filename);
+        FileInputStream fstream = new FileInputStream(file);
+        InputStreamReader isr = new InputStreamReader(fstream);
+        return new BufferedReader(isr);
+    }
+
+    private void preloadNextLine() {
+        nextLine = readOneLine();
+    }
+
+    private String readOneLine() {
+        try {
+            return reader.readLine();
+        } catch (IOException e) {
+            System.err.println("Input file read error.");
+            return null;
+        }
+    }
 }

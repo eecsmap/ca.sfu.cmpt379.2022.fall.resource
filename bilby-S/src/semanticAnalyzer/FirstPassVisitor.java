@@ -19,14 +19,14 @@ import tokens.Token;
 public class FirstPassVisitor extends ParseNodeVisitor.Default {
 
     @Override
-	public void visitEnter(ProgramNode node) {
-		enterProgramScope(node);
-	}
+    public void visitEnter(ProgramNode node) {
+        enterProgramScope(node);
+    }
 
     private void enterProgramScope(ParseNode node) {
-		Scope scope = Scope.createProgramScope();
-		node.setScope(scope);
-	}
+        Scope scope = Scope.createProgramScope();
+        node.setScope(scope);
+    }
 
     @Override
     public void visitLeave(FunctionDefinitionNode node) {
@@ -54,27 +54,27 @@ public class FirstPassVisitor extends ParseNodeVisitor.Default {
         assert lextant instanceof Keyword;
         Keyword keyword = (Keyword) lextant;
 
-        switch(keyword) {
-            case BOOL:
-                node.setType(PrimitiveType.BOOLEAN);
-                break;
-            case INT:
-                node.setType(PrimitiveType.INTEGER);
-                break;
-            case FLOAT:
-                node.setType(PrimitiveType.FLOAT);
-                break;
-            case CHAR:
-                node.setType(PrimitiveType.CHAR);
-                break;
-            case STRING:
-                node.setType(PrimitiveType.STRING);
-                break;
-            case VOID:
-                node.setType(PrimitiveType.VOID);
-                break;
-            default:
-                node.setType(PrimitiveType.ERROR);
+        switch (keyword) {
+        case BOOL:
+            node.setType(PrimitiveType.BOOLEAN);
+            break;
+        case INT:
+            node.setType(PrimitiveType.INTEGER);
+            break;
+        case FLOAT:
+            node.setType(PrimitiveType.FLOAT);
+            break;
+        case CHAR:
+            node.setType(PrimitiveType.CHAR);
+            break;
+        case STRING:
+            node.setType(PrimitiveType.STRING);
+            break;
+        case VOID:
+            node.setType(PrimitiveType.VOID);
+            break;
+        default:
+            node.setType(PrimitiveType.ERROR);
         }
     }
 

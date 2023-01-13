@@ -6,30 +6,31 @@ import tokens.NumberToken;
 import tokens.Token;
 
 public class IntegerConstantNode extends ParseNode {
-	public IntegerConstantNode(Token token) {
-		super(token);
-		assert(token instanceof NumberToken);
-	}
-	public IntegerConstantNode(ParseNode node) {
-		super(node);
-	}
+    public IntegerConstantNode(Token token) {
+        super(token);
+        assert (token instanceof NumberToken);
+    }
 
-////////////////////////////////////////////////////////////
-// attributes
-	
-	public int getValue() {
-		return numberToken().getValue();
-	}
+    public IntegerConstantNode(ParseNode node) {
+        super(node);
+    }
 
-	public NumberToken numberToken() {
-		return (NumberToken)token;
-	}	
+    ////////////////////////////////////////////////////////////
+    // attributes
 
-///////////////////////////////////////////////////////////
-// accept a visitor
-	
-	public void accept(ParseNodeVisitor visitor) {
-		visitor.visit(this);
-	}
+    public int getValue() {
+        return numberToken().getValue();
+    }
+
+    public NumberToken numberToken() {
+        return (NumberToken) token;
+    }
+
+    ///////////////////////////////////////////////////////////
+    // accept a visitor
+
+    public void accept(ParseNodeVisitor visitor) {
+        visitor.visit(this);
+    }
 
 }

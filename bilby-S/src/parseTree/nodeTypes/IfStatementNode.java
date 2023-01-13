@@ -10,10 +10,8 @@ public class IfStatementNode extends ParseNode {
         super(token);
     }
 
-    public static ParseNode make(Token token,
-                                 ParseNode expression,
-                                 ParseNode blockStatement,
-                                 ParseNode elseBlockStatement) {
+    public static ParseNode make(Token token, ParseNode expression, ParseNode blockStatement,
+            ParseNode elseBlockStatement) {
         IfStatementNode node = new IfStatementNode(token);
         node.appendChild(expression);
         node.appendChild(blockStatement);
@@ -32,5 +30,5 @@ public class IfStatementNode extends ParseNode {
         visitor.visitEnter(this);
         visitChildren(visitor);
         visitor.visitLeave(this);
-    }    
+    }
 }

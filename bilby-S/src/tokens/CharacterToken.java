@@ -15,11 +15,11 @@ public class CharacterToken extends TokenImp {
         return "character, " + value;
     }
 
-	public static Token make(Locator locator, String lexeme) {
+    public static Token make(Locator locator, String lexeme) {
         CharacterToken result = new CharacterToken(locator, lexeme);
         result.setValue(parseValue(lexeme));
         return result;
-	}
+    }
 
     private static char parseValue(String lexeme) {
         // speical case: "# " is a space char
